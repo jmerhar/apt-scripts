@@ -21,7 +21,7 @@ First, add the repository's GPG key to your system's list of trusted keys. This 
 sudo mkdir -p /etc/apt/keyrings
 
 # Download and save the GPG public key
-wget -qO- [https://jmerhar.github.io/apt-scripts/public.key](https://jmerhar.github.io/apt-scripts/public.key) | sudo gpg --dearmor -o /etc/apt/keyrings/jmerhar-scripts.gpg
+wget -qO- https://jmerhar.github.io/apt-scripts/public.key | sudo gpg --dearmor -o /etc/apt/keyrings/jmerhar-scripts.gpg
 ```
 
 ### 2. Add the Repository Source
@@ -30,7 +30,7 @@ Next, create a source list file that tells APT where to find the packages.
 
 ```bash
 # Add the repository to your APT sources
-echo "deb [arch=all signed-by=/etc/apt/keyrings/jmerhar-scripts.gpg] [https://jmerhar.github.io/apt-scripts/](https://jmerhar.github.io/apt-scripts/) stable main" | sudo tee /etc/apt/sources.list.d/jmerhar-scripts.list
+echo "deb [arch=all signed-by=/etc/apt/keyrings/jmerhar-scripts.gpg] https://jmerhar.github.io/apt-scripts/ stable main" | sudo tee /etc/apt/sources.list.d/jmerhar-scripts.list
 ```
 
 ---
