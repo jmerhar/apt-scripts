@@ -1,0 +1,24 @@
+Architectures: all
+Codename: stable
+Components: main
+Date: Wed, 27 Aug 2025 15:42:30 +0000
+Description: APT repository for personal shell scripts
+Label: jmerhar-scripts
+Origin: jmerhar
+Suite: stable
+MD5Sum:
+ e5fd7900bf69533c862a312d67e029ed              199 Release
+ ad7a3ac738180283b75bbea6db6c86a6              691 main/binary-all/Packages
+ 9c22c3758bba27786c4f61cc81873a61              498 main/binary-all/Packages.gz
+SHA1:
+ 3bc009f9c138b32ac8f67d6bce26a7bc815b6e73              199 Release
+ 85f24a01bb104f9654c3329a0e27d92be303ed51              691 main/binary-all/Packages
+ 52d2a9f639b5597b1f93fcd816a0b46d566406bb              498 main/binary-all/Packages.gz
+SHA256:
+ 4bc496c6e8e9047a9f901fed41cf6a4f46c526902512717be6ff7a6dc01da705              199 Release
+ bbb65f59e0645c6a5b8299cc77f6036c63fd207a586b3cee7ce5d91de7ca318e              691 main/binary-all/Packages
+ d4b2ffcec464e82889f80873784285928e43d78b238c3b803321094f16720d66              498 main/binary-all/Packages.gz
+SHA512:
+ da50e86b99ed8b14e7e9c131aea10bd51652766c65ad79193286b47297aaff84b402a874b21c39899719d4f0c1106bfaf3708992e2c527fc90ad296ca1eec768              199 Release
+ 1d2063a40808622aea1be233b9e1a1aafe1fbe378d63257c0d8520e84a36bac4ae67f8f7a644fec20803baa4995de23e59663bf918b042b8b912420cd64ec795              691 main/binary-all/Packages
+ d30d20759b714cf48099549b6970f478f114d52a89a00efa6d4cdd229f0d79dc3486790cd6a5eb38f28ca19e966ad799557440f389f9e7d59597da53906400af              498 main/binary-all/Packages.gz
