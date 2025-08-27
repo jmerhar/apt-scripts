@@ -12,3 +12,17 @@ Priority: optional
 Description: A powerful, generic script that automates the process of publishing a command-line utility to both a Homebrew tap and a Debian APT repository. It is designed to be run from a CI/CD workflow, such as GitHub Actions, and is configured entirely through environment variables.
  This package installs the 'publish' script.
 
+Package: publish-script
+Version: 1.0.2
+Architecture: all
+Maintainer: Jure Merhar <dev@merhar.si>
+Filename: pool/main/publish-script_1.0.2_all.deb
+Size: 3614
+MD5sum: 2c8ddc6a788cf8e0de791f262176da5a
+SHA1: ab5fecaec9d9277dcec0eb1041ebfa760972ed0f
+SHA256: 855cd9b38bf0446ca18e32bc118f12c0f2b457599a6992e3be253c4e8571cb88
+Section: utils
+Priority: optional
+Description: A powerful, generic script that automates the process of publishing a command-line utility to both a Homebrew tap and a Debian APT repository. It is designed to be run from a CI/CD workflow, such as GitHub Actions, and is configured entirely through environment variables.
+ This package installs the 'publish-script' script.
+
