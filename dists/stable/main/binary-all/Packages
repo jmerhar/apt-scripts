@@ -13,15 +13,15 @@ Description: A powerful, generic script that automates the process of publishing
  This package installs the 'publish-script' script.
 
 Package: unlock-pdf
-Version: 1.0.5
+Version: 1.0.6
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Depends: qpdf,install-dependency
-Filename: pool/main/unlock-pdf_1.0.5_all.deb
-Size: 1462
-MD5sum: 2f8d831699112c6409144409af1b8377
-SHA1: 8c33b7a3e54d0e9016a9a502da63be3b608ff5a1
-SHA256: 7165b3261264015728a019c2e67f161c17af65abd65a7410dc3836ddfdcc9667
+Depends: qpdf
+Filename: pool/main/unlock-pdf_1.0.6_all.deb
+Size: 1450
+MD5sum: 67702df965f699871a79d19b0d78b6da
+SHA1: 7273f00d79574917d3bd34b558f5e9d2508eb96e
+SHA256: 1896c283e00d34d7823fb1caea229c724eb5d06a40f6f8c05f94f024c7e1bcaa
 Section: utils
 Priority: optional
 Description: A script to decrypt a password-protected PDF file.
