@@ -12,3 +12,18 @@ Priority: optional
 Description: A powerful, generic script that automates the process of publishing a command-line utility to both a Homebrew tap and a Debian APT repository. It is designed to be run from a CI/CD workflow, such as GitHub Actions, and is configured entirely through environment variables.
  This package installs the 'publish-script' script.
 
+Package: unlock-pdf
+Version: 1.0.5
+Architecture: all
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: qpdf,install-dependency
+Filename: pool/main/unlock-pdf_1.0.5_all.deb
+Size: 1462
+MD5sum: 2f8d831699112c6409144409af1b8377
+SHA1: 8c33b7a3e54d0e9016a9a502da63be3b608ff5a1
+SHA256: 7165b3261264015728a019c2e67f161c17af65abd65a7410dc3836ddfdcc9667
+Section: utils
+Priority: optional
+Description: A script to decrypt a password-protected PDF file.
+ This package installs the 'unlock-pdf' script.
+
