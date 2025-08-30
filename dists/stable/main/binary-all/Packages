@@ -13,14 +13,15 @@ Description: A cross-platform script to install a given package on macOS or Debi
  This package installs the 'install-dependency' script.
 
 Package: package-script
-Version: 1.2.3
+Version: 1.3.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/package-script_1.2.3_all.deb
-Size: 3320
-MD5sum: a9ca4338da7a2048d124c310633975d1
-SHA1: e3c99c24c07f11b06cd673d9b4d6cd672656da19
-SHA256: d75759492c975e55b10ab50d55b8c7db2f6bb3028555ecd3352832ea78267f42
+Depends: awk,dpkg-deb
+Filename: pool/main/package-script_1.3.0_all.deb
+Size: 3784
+MD5sum: be427972b7a7764da279fab58f0638a3
+SHA1: 73244fa7f3ef62de45d3d824ece7fa4649e7d837
+SHA256: 1eceeb8a8ce8d8ccc669dde2d57f5989cf9dec3ddf6b516eaf5803e82bdcde43
 Section: utils
 Priority: optional
 Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
@@ -53,6 +54,21 @@ Section: utils
 Priority: optional
 Description: A powerful, generic script that automates the process of publishing a command-line utility to both a Homebrew tap and a Debian APT repository. It is designed to be run from a CI/CD workflow, such as GitHub Actions, and is configured entirely through environment variables.
  This package installs the 'publish-script' script.
+
+Package: remove-sidecars
+Version: 1.3.0
+Architecture: all
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: rsync,perl,libterm-ansicolor-perl
+Filename: pool/main/remove-sidecars_1.3.0_all.deb
+Size: 3694
+MD5sum: 4f5241b7ded28bcf9b50f7bf13ac90ea
+SHA1: b68ba1548ef891ceb5ed966b80cf7f2c6a471d10
+SHA256: 641209ada190bfce47368cfd2c28d273ffcb712c36e3be9bcf22c1c311dc6d8b
+Section: utils
+Priority: optional
+Description: When shooting in RAW+JPEG mode, you get high-quality RAWs for editing and convenient JPEGs for quick previews. Lightroom is smart enough to recognise these JPEGs as "sidecars" to the RAW files, which is great.
+ This package installs the 'remove-sidecars' script.
 
 Package: unlock-pdf
 Version: 1.1.0
