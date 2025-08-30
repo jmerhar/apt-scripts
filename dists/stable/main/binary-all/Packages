@@ -13,14 +13,14 @@ Description: A cross-platform script to install a given package on macOS or Debi
  This package installs the 'install-dependency' script.
 
 Package: package-script
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/package-script_1.2.0_all.deb
-Size: 3318
-MD5sum: 352952922604bf2b788ce209a4222d3f
-SHA1: c55b81448b3e72bd11fa83f4e9b175ba00f2ddc3
-SHA256: 312901b285f7d7a40f72c797cdccaed1235639c9270901f58e3825d6267dab66
+Filename: pool/main/package-script_1.2.1_all.deb
+Size: 3322
+MD5sum: 5f07ebbc8d945e423305480d7f99768c
+SHA1: 96d60d314c069ee7065926903c77dc265a1c3d97
+SHA256: 1260264963be6e797d053182c3f173dfe2ae29ce4d58b1fff65eb1509569e6a4
 Section: utils
 Priority: optional
 Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
@@ -31,10 +31,10 @@ Version: 1.2.1
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Filename: pool/main/photo-backup_1.2.1_all.deb
-Size: 3986
-MD5sum: 32ea96c2c91c9e189b7345411866140a
-SHA1: 421d0933864a98eb4ab13d48245aa4b8eaa6e2fd
-SHA256: 8cdaa75c1f87acf7856b124c76d1c323477feb298b42fc2c000537034ae6499e
+Size: 3992
+MD5sum: 3a33e09a1683f89425fda9a394e0108b
+SHA1: fa33e89405e776499a71944dd84d3688cc1de11a
+SHA256: 276a66e644027288c79b5a3644e84fdfd56fd871913ad33cd7faacbe0514ba0d
 Section: utils
 Priority: optional
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
