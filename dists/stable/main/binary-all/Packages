@@ -17,10 +17,10 @@ Version: 1.2.1
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Filename: pool/main/package-script_1.2.1_all.deb
-Size: 3322
-MD5sum: 5f07ebbc8d945e423305480d7f99768c
-SHA1: 96d60d314c069ee7065926903c77dc265a1c3d97
-SHA256: 1260264963be6e797d053182c3f173dfe2ae29ce4d58b1fff65eb1509569e6a4
+Size: 3320
+MD5sum: 321be064fb69d52f4e99eeeb5dc067a4
+SHA1: 754cbec3abdbf6d02e99d1f8a42197ec187307b8
+SHA256: 23ef1888a91d0cb93b4fb21c98cffe3518872662f49ec4f244c610923047c365
 Section: utils
 Priority: optional
 Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
@@ -31,10 +31,10 @@ Version: 1.2.1
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Filename: pool/main/photo-backup_1.2.1_all.deb
-Size: 3992
-MD5sum: 3a33e09a1683f89425fda9a394e0108b
-SHA1: fa33e89405e776499a71944dd84d3688cc1de11a
-SHA256: 276a66e644027288c79b5a3644e84fdfd56fd871913ad33cd7faacbe0514ba0d
+Size: 4288
+MD5sum: 2889545025e46ca5e8d885655610bd7c
+SHA1: 63131c8fa1f97048257d86aea19df3123032c4f3
+SHA256: 95c2a5e107096e124391467185f46324b33e96ebea139f005f9beb4bcaf83625
 Section: utils
 Priority: optional
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
