@@ -12,6 +12,20 @@ Priority: optional
 Description: A cross-platform script to install a given package on macOS or Debian-based Linux.
  This package installs the 'install-dependency' script.
 
+Package: package-script
+Version: 1.1.1
+Architecture: all
+Maintainer: Jure Merhar <dev@merhar.si>
+Filename: pool/main/package-script_1.1.1_all.deb
+Size: 3044
+MD5sum: 92f966ce0a738d71176c26f94d670320
+SHA1: 13f7f7df4efbca34d8f5f84b76a6b12bf8fe34a0
+SHA256: e54b252800168dcde3f0b81eaf332562df81a1e896f41c6d459d91c4b8800db7
+Section: utils
+Priority: optional
+Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
+ This package installs the 'package-script' script.
+
 Package: publish-script
 Version: 1.1.0
 Architecture: all
