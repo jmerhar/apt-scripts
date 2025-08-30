@@ -27,14 +27,14 @@ Description: A generic package-file generator designed to be run from a CI/CD wo
  This package installs the 'package-script' script.
 
 Package: photo-backup
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/photo-backup_1.2.0_all.deb
-Size: 4288
-MD5sum: 9677561c539816ff1c2066295e962aec
-SHA1: 889a65c5cfacc98b1c7e0c2529d8d003e38f1f14
-SHA256: 7c7d883d55a494b695bb25bf62317620eab993e5c6358077ee1646cceccf72d4
+Filename: pool/main/photo-backup_1.2.1_all.deb
+Size: 3986
+MD5sum: 32ea96c2c91c9e189b7345411866140a
+SHA1: 421d0933864a98eb4ab13d48245aa4b8eaa6e2fd
+SHA256: 8cdaa75c1f87acf7856b124c76d1c323477feb298b42fc2c000537034ae6499e
 Section: utils
 Priority: optional
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
