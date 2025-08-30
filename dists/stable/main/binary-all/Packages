@@ -1,27 +1,41 @@
-Package: publish-script
-Version: 1.0.2
+Package: install-dependency
+Version: 1.1.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/publish-script_1.0.2_all.deb
-Size: 3614
-MD5sum: 2c8ddc6a788cf8e0de791f262176da5a
-SHA1: ab5fecaec9d9277dcec0eb1041ebfa760972ed0f
-SHA256: 855cd9b38bf0446ca18e32bc118f12c0f2b457599a6992e3be253c4e8571cb88
+Filename: pool/main/install-dependency_1.1.0_all.deb
+Size: 1630
+MD5sum: af541a8f861dbcb86cf74a8ff3f838f8
+SHA1: e1e0fb24694af0392a68ca8e42c34a47a3003110
+SHA256: 7680f527677d3f8547171bb2225597071a7ef1bd54647ba4fa8ca3dcc5fcc865
+Section: utils
+Priority: optional
+Description: A cross-platform script to install a given package on macOS or Debian-based Linux.
+ This package installs the 'install-dependency' script.
+
+Package: publish-script
+Version: 1.1.0
+Architecture: all
+Maintainer: Jure Merhar <dev@merhar.si>
+Filename: pool/main/publish-script_1.1.0_all.deb
+Size: 3004
+MD5sum: 73c8ce8b321d3d1a94ee84ef78b9148b
+SHA1: 75ef18200483f453627cf084dd5bd041b37f3c34
+SHA256: 1ac79b22fde2f50e350ef279894d53d0065c2f3ab7c61e0b179d1a0c53c722f9
 Section: utils
 Priority: optional
 Description: A powerful, generic script that automates the process of publishing a command-line utility to both a Homebrew tap and a Debian APT repository. It is designed to be run from a CI/CD workflow, such as GitHub Actions, and is configured entirely through environment variables.
  This package installs the 'publish-script' script.
 
 Package: unlock-pdf
-Version: 1.0.6
+Version: 1.1.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: qpdf
-Filename: pool/main/unlock-pdf_1.0.6_all.deb
-Size: 1450
-MD5sum: 67702df965f699871a79d19b0d78b6da
-SHA1: 7273f00d79574917d3bd34b558f5e9d2508eb96e
-SHA256: 1896c283e00d34d7823fb1caea229c724eb5d06a40f6f8c05f94f024c7e1bcaa
+Filename: pool/main/unlock-pdf_1.1.0_all.deb
+Size: 1532
+MD5sum: d790257025e59ecf522d3f0894ddd678
+SHA1: a60b1187300d1c41acf91781df683d3d6c8d678d
+SHA256: ab7fd13bc8c7e4271899aac4927359037bbf4a705079e59ade39b4c206e8245d
 Section: utils
 Priority: optional
 Description: A script to decrypt a password-protected PDF file.
