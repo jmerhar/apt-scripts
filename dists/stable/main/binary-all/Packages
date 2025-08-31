@@ -12,15 +12,15 @@ Description: Handles the installation of a specified package on macOS (via Homeb
 License: MIT
 
 Package: package-script
-Version: 1.4.0
+Version: 1.4.1
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: awk, dpkg-deb
-Filename: pool/main/package-script_1.4.0_all.deb
+Filename: pool/main/package-script_1.4.1_all.deb
 Size: 4112
-MD5sum: f2fe0513d7d3cda4fad1efb93eef0c52
-SHA1: eb209404f635ea0d965a9d085005df5fc857eb95
-SHA256: 8f5e6ab36fb58ad185d58fc63c57c9bd307ae244c488c65d2cd1cff32ca8e3d0
+MD5sum: ec76931e6921814a010fba0209b1aee5
+SHA1: 2e268516b6979d168e274624b7a75fdf03dea9ec
+SHA256: 6e0b6ded9671d118565dc3bcb688a6e5e60a6d0cc9f93607f47e73106310e83d
 Description: A generic package-file generator for Homebrew and Debian.
  This package installs the 'package-script' script.
 License: MIT
