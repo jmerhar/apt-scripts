@@ -1,45 +1,43 @@
 Package: install-dependency
-Version: 1.1.0
+Version: 1.4.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/install-dependency_1.1.0_all.deb
-Size: 1630
-MD5sum: af541a8f861dbcb86cf74a8ff3f838f8
-SHA1: e1e0fb24694af0392a68ca8e42c34a47a3003110
-SHA256: 7680f527677d3f8547171bb2225597071a7ef1bd54647ba4fa8ca3dcc5fcc865
-Section: utils
-Priority: optional
-Description: A cross-platform script to install a given package on macOS or Debian-based Linux.
+Filename: pool/main/install-dependency_1.4.0_all.deb
+Size: 1746
+MD5sum: 0732f1d499de34921c4d67baab780b5c
+SHA1: ce1d6f38a85ddfb0287d5a9727104a3f6de11013
+SHA256: ca2d9261ab51f02d10f913bf44dae7e0e08334403cfe464636ce1e97de8db5e2
+Description: Handles the installation of a specified package on macOS (via Homebrew) or Debian-based Linux (via apt-get).
  This package installs the 'install-dependency' script.
+License: MIT
 
 Package: package-script
-Version: 1.3.0
+Version: 1.4.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Depends: awk,dpkg-deb
-Filename: pool/main/package-script_1.3.0_all.deb
-Size: 3784
-MD5sum: be427972b7a7764da279fab58f0638a3
-SHA1: 73244fa7f3ef62de45d3d824ece7fa4649e7d837
-SHA256: 1eceeb8a8ce8d8ccc669dde2d57f5989cf9dec3ddf6b516eaf5803e82bdcde43
-Section: utils
-Priority: optional
-Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
+Depends: awk, dpkg-deb
+Filename: pool/main/package-script_1.4.0_all.deb
+Size: 4112
+MD5sum: f2fe0513d7d3cda4fad1efb93eef0c52
+SHA1: eb209404f635ea0d965a9d085005df5fc857eb95
+SHA256: 8f5e6ab36fb58ad185d58fc63c57c9bd307ae244c488c65d2cd1cff32ca8e3d0
+Description: A generic package-file generator for Homebrew and Debian.
  This package installs the 'package-script' script.
+License: MIT
 
 Package: photo-backup
-Version: 1.2.3
+Version: 1.4.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/photo-backup_1.2.3_all.deb
-Size: 4326
-MD5sum: 114a84d83096ea12f9dd24d708b9564e
-SHA1: 1addff82ca98fbddb098a24d3faa84b27600f402
-SHA256: efe45e1eb49ff68094e3e9e8bf41662263d1e2e66687ffd77041d468644302fb
-Section: utils
-Priority: optional
+Depends: rsync
+Filename: pool/main/photo-backup_1.4.0_all.deb
+Size: 4438
+MD5sum: 9b926d9f180970ae554666fa2200da4b
+SHA1: d49f56a59ac9d41678e8351629d6deb687b670fe
+SHA256: 3a92cde3259a2696dc2566e35c27a1a8a0e11bc23baf5217624dd9ff09453504
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
  This package installs the 'photo-backup' script.
+License: MIT
 
 Package: publish-script
 Version: 1.1.0
@@ -56,32 +54,30 @@ Description: A powerful, generic script that automates the process of publishing
  This package installs the 'publish-script' script.
 
 Package: remove-sidecars
-Version: 1.3.0
+Version: 1.4.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
-Depends: rsync,perl,libterm-ansicolor-perl
-Filename: pool/main/remove-sidecars_1.3.0_all.deb
-Size: 3694
-MD5sum: 4f5241b7ded28bcf9b50f7bf13ac90ea
-SHA1: b68ba1548ef891ceb5ed966b80cf7f2c6a471d10
-SHA256: 641209ada190bfce47368cfd2c28d273ffcb712c36e3be9bcf22c1c311dc6d8b
-Section: utils
-Priority: optional
-Description: When shooting in RAW+JPEG mode, you get high-quality RAWs for editing and convenient JPEGs for quick previews. Lightroom is smart enough to recognise these JPEGs as "sidecars" to the RAW files, which is great.
+Depends: perl, libterm-ansicolor-perl
+Filename: pool/main/remove-sidecars_1.4.0_all.deb
+Size: 3760
+MD5sum: 7f0cab544322fccdd2c9ecf06b6c39de
+SHA1: 0b5da849de0dc70372eeefb18ba972e4f15e5cbb
+SHA256: b96d19fa35ad0c7f2f644bb866dc12fa8d2cceaa7ec8a272a6e650298c802357
+Description: A script to find and delete "sidecar" files when a corresponding RAW photo file exists.
  This package installs the 'remove-sidecars' script.
+License: MIT
 
 Package: unlock-pdf
-Version: 1.1.0
+Version: 1.4.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: qpdf
-Filename: pool/main/unlock-pdf_1.1.0_all.deb
-Size: 1532
-MD5sum: d790257025e59ecf522d3f0894ddd678
-SHA1: a60b1187300d1c41acf91781df683d3d6c8d678d
-SHA256: ab7fd13bc8c7e4271899aac4927359037bbf4a705079e59ade39b4c206e8245d
-Section: utils
-Priority: optional
-Description: A script to decrypt a password-protected PDF file.
+Filename: pool/main/unlock-pdf_1.4.0_all.deb
+Size: 1656
+MD5sum: 06d2542b858a8b6ccb219e1dab1ad894
+SHA1: 51cbd0a4a3202f391134301f4f1ce0faf69ec5da
+SHA256: 0f66072ab75b8c240fd5eb8416115b209b9dcf060fe7c88aa8b8b6ee74b1aea3
+Description: Decrypts a password-protected PDF file using the 'qpdf' command-line tool.
  This package installs the 'unlock-pdf' script.
+License: MIT
 
