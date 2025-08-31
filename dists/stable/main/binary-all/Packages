@@ -32,9 +32,9 @@ Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
 Filename: pool/main/photo-backup_1.5.0_all.deb
 Size: 4790
-MD5sum: d2d7c46a3ca9d3867ea46a7160648f54
-SHA1: a795ebb774483852e84dadf09978fd55f527581f
-SHA256: 471f4dacb02a6dc9d822a737efcc43255a51d1131d6b6a3b22a1625d79a08bd9
+MD5sum: ae858886ca8aa9fcbba6a0449fdcbb44
+SHA1: acd49704a5110b17390d403108ad9cd74a7c858b
+SHA256: 40ca19f19ff3bba12e719ee2a13ff1f7539025ac2d15fd08cdd64bca3eaf1269
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
  This package installs the 'photo-backup' script.
 License: MIT
