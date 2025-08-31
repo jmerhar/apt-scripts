@@ -54,15 +54,15 @@ Description: A script to find and delete "sidecar" files when a corresponding RA
 License: MIT
 
 Package: unlock-pdf
-Version: 1.4.0
+Version: 1.5.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: qpdf
-Filename: pool/main/unlock-pdf_1.4.0_all.deb
+Filename: pool/main/unlock-pdf_1.5.0_all.deb
 Size: 1664
-MD5sum: 0b23b13b0960d4ecd0da815365cf5562
-SHA1: 6fc301caa984c070875cc562bf2978cf82a5463a
-SHA256: bd70b0270ee126e5ea0881795d7f80347ce209a97312c1962c705c33f281747a
+MD5sum: d1c55770a45d233142275607ab2a2c18
+SHA1: a4aa46656ad335d1593fd2174a9b51f6e82d332a
+SHA256: 3edb289bc46b82d74ebd2b720a6357c5329ffec668784172165ac913538659e1
 Description: Decrypts a password-protected PDF file using the 'qpdf' command-line tool.
  This package installs the 'unlock-pdf' script.
 License: MIT
