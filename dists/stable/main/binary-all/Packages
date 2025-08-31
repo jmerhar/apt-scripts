@@ -3,10 +3,10 @@ Version: 1.4.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Filename: pool/main/install-dependency_1.4.0_all.deb
-Size: 1746
-MD5sum: 0732f1d499de34921c4d67baab780b5c
-SHA1: ce1d6f38a85ddfb0287d5a9727104a3f6de11013
-SHA256: ca2d9261ab51f02d10f913bf44dae7e0e08334403cfe464636ce1e97de8db5e2
+Size: 1742
+MD5sum: c0bfba201b08f97235128a433cb8f345
+SHA1: 57c9bdaf4a6536ec9cb5ec5484f35e46e9f2330a
+SHA256: 858c17b0e1c1cc65f9518b94446faf5a665c173bfd28e4397e83e9efa67e8f3b
 Description: Handles the installation of a specified package on macOS (via Homebrew) or Debian-based Linux (via apt-get).
  This package installs the 'install-dependency' script.
 License: MIT
@@ -31,10 +31,10 @@ Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
 Filename: pool/main/photo-backup_1.4.0_all.deb
-Size: 4438
-MD5sum: 9b926d9f180970ae554666fa2200da4b
-SHA1: d49f56a59ac9d41678e8351629d6deb687b670fe
-SHA256: 3a92cde3259a2696dc2566e35c27a1a8a0e11bc23baf5217624dd9ff09453504
+Size: 4436
+MD5sum: cb3f80cb20167a01cbd9a29ed956244c
+SHA1: bf991b8b3b41ebcd73e591d484f86982775599b7
+SHA256: 4f05ca3002f051e002c8911ce9cc0fddc108d5bb14ce022fc5729db89b5d8a6b
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
  This package installs the 'photo-backup' script.
 License: MIT
@@ -45,10 +45,10 @@ Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: perl, libterm-ansicolor-perl
 Filename: pool/main/remove-sidecars_1.4.0_all.deb
-Size: 3760
-MD5sum: 7f0cab544322fccdd2c9ecf06b6c39de
-SHA1: 0b5da849de0dc70372eeefb18ba972e4f15e5cbb
-SHA256: b96d19fa35ad0c7f2f644bb866dc12fa8d2cceaa7ec8a272a6e650298c802357
+Size: 3758
+MD5sum: 6d743fc9a492a14be6104677fdee8c33
+SHA1: d10a40d9f9779a40c1c77a5bba9a79b5ecd954a3
+SHA256: c8fe7dae595192b7d2756fd8afe12625850ea1aecca6504d887b39ce4ba1a9dc
 Description: A script to find and delete "sidecar" files when a corresponding RAW photo file exists.
  This package installs the 'remove-sidecars' script.
 License: MIT
@@ -59,10 +59,10 @@ Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: qpdf
 Filename: pool/main/unlock-pdf_1.4.0_all.deb
-Size: 1656
-MD5sum: 06d2542b858a8b6ccb219e1dab1ad894
-SHA1: 51cbd0a4a3202f391134301f4f1ce0faf69ec5da
-SHA256: 0f66072ab75b8c240fd5eb8416115b209b9dcf060fe7c88aa8b8b6ee74b1aea3
+Size: 1664
+MD5sum: 0b23b13b0960d4ecd0da815365cf5562
+SHA1: 6fc301caa984c070875cc562bf2978cf82a5463a
+SHA256: bd70b0270ee126e5ea0881795d7f80347ce209a97312c1962c705c33f281747a
 Description: Decrypts a password-protected PDF file using the 'qpdf' command-line tool.
  This package installs the 'unlock-pdf' script.
 License: MIT
