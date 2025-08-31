@@ -32,9 +32,9 @@ Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
 Filename: pool/main/photo-backup_1.5.0_all.deb
 Size: 4790
-MD5sum: e886fc2a9a3b7eedb998eab38974b748
-SHA1: 3ffc490714ae8abc86fb7f52f8219f7fe6fd66bc
-SHA256: f414504c0f6b865e95982f2c61285932e7ac3192af03be235d21abcb007dad74
+MD5sum: ff5dab0b19e1712a711de435b3c1aa93
+SHA1: ed9bea4414de361a75b1e159ec9e9cec7f8434d4
+SHA256: d0c478ef474975bc6327f1ed627f827b324d51a45ee856ab2d8746666bed3fb2
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
  This package installs the 'photo-backup' script.
 License: MIT
@@ -45,10 +45,10 @@ Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: perl, libterm-ansicolor-perl
 Filename: pool/main/remove-sidecars_1.5.0_all.deb
-Size: 3756
-MD5sum: fd9e0f250bcd20d95752127be6cfaeb5
-SHA1: 0407c35d8fbbb55e8c94cfcfb1a0197e24146481
-SHA256: 37ea97aba8225929cd9745ea7f3af87d532c096e9e0c7c066a72c566af6899ab
+Size: 3754
+MD5sum: 98416e0809491c983f36a8f866d21dec
+SHA1: 2b7041d80b4297475bbe1821f075d9d125e155ac
+SHA256: ad0ac55a385d023ae5d731e5933e414b118c07dc9863b1492b2d8ba9276ccdf4
 Description: A script to find and delete "sidecar" files when a corresponding RAW photo file exists.
  This package installs the 'remove-sidecars' script.
 License: MIT
