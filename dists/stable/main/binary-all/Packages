@@ -40,15 +40,15 @@ Description: A robust script for backing up photo collections from multiple sour
 License: MIT
 
 Package: remove-sidecars
-Version: 1.4.0
+Version: 1.5.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: perl, libterm-ansicolor-perl
-Filename: pool/main/remove-sidecars_1.4.0_all.deb
-Size: 3758
-MD5sum: 6d743fc9a492a14be6104677fdee8c33
-SHA1: d10a40d9f9779a40c1c77a5bba9a79b5ecd954a3
-SHA256: c8fe7dae595192b7d2756fd8afe12625850ea1aecca6504d887b39ce4ba1a9dc
+Filename: pool/main/remove-sidecars_1.5.0_all.deb
+Size: 3756
+MD5sum: fd9e0f250bcd20d95752127be6cfaeb5
+SHA1: 0407c35d8fbbb55e8c94cfcfb1a0197e24146481
+SHA256: 37ea97aba8225929cd9745ea7f3af87d532c096e9e0c7c066a72c566af6899ab
 Description: A script to find and delete "sidecar" files when a corresponding RAW photo file exists.
  This package installs the 'remove-sidecars' script.
 License: MIT
