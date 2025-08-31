@@ -39,20 +39,6 @@ Description: A robust script for backing up photo collections from multiple sour
  This package installs the 'photo-backup' script.
 License: MIT
 
-Package: publish-script
-Version: 1.1.0
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/publish-script_1.1.0_all.deb
-Size: 3004
-MD5sum: 73c8ce8b321d3d1a94ee84ef78b9148b
-SHA1: 75ef18200483f453627cf084dd5bd041b37f3c34
-SHA256: 1ac79b22fde2f50e350ef279894d53d0065c2f3ab7c61e0b179d1a0c53c722f9
-Section: utils
-Priority: optional
-Description: A powerful, generic script that automates the process of publishing a command-line utility to both a Homebrew tap and a Debian APT repository. It is designed to be run from a CI/CD workflow, such as GitHub Actions, and is configured entirely through environment variables.
- This package installs the 'publish-script' script.
-
 Package: remove-sidecars
 Version: 1.4.0
 Architecture: all
