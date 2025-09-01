@@ -26,15 +26,15 @@ Description: A generic package-file generator for Homebrew and Debian.
 License: MIT
 
 Package: photo-backup
-Version: 1.5.0
+Version: 2.0.0
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
-Filename: pool/main/photo-backup_1.5.0_all.deb
-Size: 4790
-MD5sum: 3ae87613215855e38452ea82ba5b50bb
-SHA1: 1af1d7052932ea95b019206556891aa6112940ab
-SHA256: 246b4baec10ad882f9e03e88ff85742de6e93d8c1bf0520c8fd4e21e081ad662
+Filename: pool/main/photo-backup_2.0.0_all.deb
+Size: 6022
+MD5sum: 398760c347bdc449a2c7a101dda03bee
+SHA1: b20251429f8d382f000833aadcfb6eb970d010ba
+SHA256: 57cc24bf0db35fed62deaf29daa7891d37d1f66ea5b7554b1b6417c4ab2dfad6
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
  This package installs the 'photo-backup' script.
 License: MIT
