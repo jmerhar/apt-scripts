@@ -11,6 +11,20 @@ Description: Handles the installation of a specified package on macOS (via Homeb
  This package installs the 'install-dependency' script.
 License: MIT
 
+Package: local-backup
+Version: 1.0.0
+Architecture: all
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: rsync
+Filename: pool/main/local-backup_1.0.0_all.deb
+Size: 3632
+MD5sum: e049fe0b8834ff74b71feeca578bff4b
+SHA1: 55b9911865792bd911a9093502bbf7d232fa6f61
+SHA256: a83d542c7f1916d9479a404678e68a9241ed4d464bb81fff717307a888795e44
+Description: A generic script to create and automatically prune rsync-based system backups.
+ This package installs the 'local-backup' script.
+License: MIT
+
 Package: package-script
 Version: 1.5.0
 Architecture: all
