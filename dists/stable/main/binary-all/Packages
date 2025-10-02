@@ -26,15 +26,15 @@ Description: A generic script to create and automatically prune rsync-based syst
 License: MIT
 
 Package: package-script
-Version: 1.5.0
+Version: 1.5.1
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: awk, dpkg-deb
-Filename: pool/main/package-script_1.5.0_all.deb
-Size: 4198
-MD5sum: f45ff2e5f04e181bc3da6ed49a6a6653
-SHA1: 4c91435dd79a533005a693e5c0e99c862846dc73
-SHA256: 27aa826b466fef0207e45539ade0e9baf6497f44ceb0409de0fd99230f30194f
+Filename: pool/main/package-script_1.5.1_all.deb
+Size: 4318
+MD5sum: a53d4ed4d6517cedd8ff79d9825f433c
+SHA1: edd6c4ddbaecabce8c713e72f4ef00b2967a5b9e
+SHA256: bb7031e0e360573d49ed40d146acc9d452989509109944c7906be9c27fbebf20
 Description: A generic package-file generator for Homebrew and Debian.
  This package installs the 'package-script' script.
 License: MIT
