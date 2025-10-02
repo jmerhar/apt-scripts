@@ -12,15 +12,15 @@ Description: Handles the installation of a specified package on macOS (via Homeb
 License: MIT
 
 Package: local-backup
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
-Filename: pool/main/local-backup_1.0.1_all.deb
-Size: 3808
-MD5sum: d321a792507ddb52ae9819f14e375773
-SHA1: 37c6026d5b7729a36295546e91b60da197a0c3fe
-SHA256: 574722b2bcdd2085264b22235b32935fa22feb99456c84fa22b0fd2aeaa0e120
+Filename: pool/main/local-backup_1.0.2_all.deb
+Size: 3850
+MD5sum: aaa59a00ec8535dc1db227d2ed9d52b1
+SHA1: 53409b9b5692d6244dbd23282c9d3b16ba9ba3fb
+SHA256: d9ef6be6971355b6bcc4965666681d6d397a4febf0d25c2b8d87cfb6f2f3190f
 Description: A generic script to create and automatically prune rsync-based system backups.
  This package installs the 'local-backup' script.
 License: MIT
