@@ -80,6 +80,20 @@ Description: A generic script to create and automatically prune rsync-based syst
  This package installs the 'local-backup' script.
 License: MIT
 
+Package: local-backup
+Version: 1.1.0
+Architecture: all
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: rsync, ionice
+Filename: pool/main/local-backup_1.1.0_all.deb
+Size: 4446
+MD5sum: 0f0d16708c9829eb1bf2568f5fc068f3
+SHA1: cb8657b4eca190a52791ac92c430d2962a42acf0
+SHA256: 672eb2f6158486de126def7cf467dc3d49a61bed9dd55c15c8d6c4d30170e14c
+Description: A generic script to create and automatically prune rsync-based system backups.
+ This package installs the 'local-backup' script.
+License: MIT
+
 Package: package-script
 Version: 1.1.1
 Architecture: all
