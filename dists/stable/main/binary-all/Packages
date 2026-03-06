@@ -95,11 +95,11 @@ Version: 1.3.0
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
 Filename: pool/main/local-backup_1.3.0_all.deb
-Size: 5814
-MD5sum: c64e330768df4b6b50b5351785e270e8
-SHA1: 88c6198c594fc1aead04baa5d642cb75891ca396
-SHA256: a09a1b3706b376a845f8b6d223be679fb744b88b472f8e584173283367abb712
-SHA512: 581de42abc2a574474bb1c7d9c9296f819b9a1ab2d0a068dcc5403eb7f27629aeacaa58c6561bc63c70e0ef0da948080bb087f4641a4d13fffa4d3f66c208c67
+Size: 5670
+MD5sum: c14716ab14e2d473b6eb30a9095ad55c
+SHA1: d111820da359f510103d4e5f92b68e47f8ff03dd
+SHA256: 128075dd3f5a6dd820a4ce090c3583dba7ba61d02186398d72b69797742cf122
+SHA512: 3ed1297176a598bd42f67c38037a728ca2e98f5f93c109f8297d7eb4d0a992812df1201214e2bdebb28a2744da19d5d0ac20cb779a43f147b9abd15913959b0d
 Homepage: https://github.com/jmerhar/scripts
 Description: A generic script to create and automatically prune rsync-based system backups.
  This package installs the 'local-backup' script.
@@ -281,11 +281,11 @@ Version: 2.1.0
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
 Filename: pool/main/photo-backup_2.1.0_all.deb
-Size: 6260
-MD5sum: 26b9f11fbf65573a0b953e614f578701
-SHA1: 904adeca012a8fa99e2c631863056251964ea8b3
-SHA256: 94cc4ea50ebe7839a9c8d9f2a8941423cd7025913a4392182c9a64c1524a63bf
-SHA512: 1d01fc246231e1c9c522deab4781ae7c098f272510aea6a4ace97ec3de5cc7f1b7b540ee5476237c9a3777a07a2d7bf8d406c678499ef057f5b86c43ce6685d1
+Size: 6134
+MD5sum: 67cc79e6f68b68206ee9df5a141d1913
+SHA1: 8ba75a9013c64e82545362ba5b29203155980f31
+SHA256: 405e6f0dc51ce9f709247fc38a11d8e34a20312950b9d53d4120d2850c7422f2
+SHA512: b5d2bff8240ad00802b8ee09d21b2742b5b09f1edbfb7f925eb5d44d9d4a82247fdb3cbb2198e0e7c23390df83cada953286a4ae3515c1246e9a731fb81173cf
 Homepage: https://github.com/jmerhar/scripts
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
  This package installs the 'photo-backup' script.
@@ -373,11 +373,11 @@ Version: 1.6.0
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: perl, libterm-ansicolor-perl
 Filename: pool/main/remove-sidecars_1.6.0_all.deb
-Size: 4110
-MD5sum: df3888a96608bd7f8bd588bdda6017ec
-SHA1: e19efaf2135d1f02c482404e9af61bb621e9488f
-SHA256: db63a932eda1ee1fc06546c2bac74a1b5d8e504fd0950538250d5224aa3faf25
-SHA512: a804c7c0f8a67f70ca3a7a8a6f970149fe587847211c33b10a9f21f2f050a7fc0d5fa54a608826c6c860b4da6b4b9457daf8bb08beef2460cb91a86adc8866f9
+Size: 3970
+MD5sum: 36f75ac4df582b658807f254d5106a4d
+SHA1: 4bcbd25c6bd5a1dfc73b6116d3d72396fa129723
+SHA256: 9dc38e1f34d4af27a8f31970232659d5ba62e0849c134d29b98e966963f2d8d9
+SHA512: e12d3fc86b354321e624c923850cef9192a647f60a73c741cbbfab7cad0fec3cdd1ed64864621137e4ebb35ea296fcf56a3aadd51494664d2a49579feadc11e8
 Homepage: https://github.com/jmerhar/scripts
 Description: A script to find and delete "sidecar" files when a corresponding RAW photo file exists.
  This package installs the 'remove-sidecars' script.
@@ -512,11 +512,11 @@ Version: 2.0.1
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: qpdf
 Filename: pool/main/unlock-pdf_2.0.1_all.deb
-Size: 1696
-MD5sum: 8509a9b4a736af10d1b87955a35fe333
-SHA1: 650d79ca9158af65ccdb50ec84ab438c79bfedb8
-SHA256: 7427d6fb800825429e7b1d57db2f63340b522be89f6678982109727879b542f2
-SHA512: e24d7ceda9881d1e3768cf5f0f0e0074ed81c83f165d8bbb6393ecb9a78e38b1e57329e4f02b4523db8d438d99875a60556789bb1d6ab555e259648b34777244
+Size: 1572
+MD5sum: a2136edc8f5f97728dfc16c99668c509
+SHA1: 181b157a370cccdf4c96b253c056e3705a05aae0
+SHA256: fa6837711863bab711845844b32593a280302cf2dfd69d9d6fff4f9976e2a986
+SHA512: 765f384a9e29ee34669ec8269d74f939fa203a0367d96e5abf3dc656bd5ebd280ab2c13d87bf823cdfd5051af3320313c7cb92bd80bd7e770082784e26a36287
 Homepage: https://github.com/jmerhar/scripts
 Description: Decrypts a password-protected PDF file using the 'qpdf' command-line tool.
  This package installs the 'unlock-pdf' script.

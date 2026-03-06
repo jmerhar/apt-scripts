@@ -7,6 +7,12 @@ Packages are signed with a GPG key to ensure authenticity and integrity.
 ## Available packages
 
 <!-- BEGIN TABLE -->
+| Package | Description |
+|---------|-------------|
+| `local-backup` | A generic script to create and automatically prune rsync-based system backups. |
+| `photo-backup` | A robust script for backing up photo collections from multiple sources to a remote server using rsync. |
+| `remove-sidecars` | A script to find and delete "sidecar" files when a corresponding RAW photo file exists. |
+| `unlock-pdf` | Decrypts a password-protected PDF file using the 'qpdf' command-line tool. |
 
 <!-- END TABLE -->
 
