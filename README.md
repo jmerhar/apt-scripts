@@ -6,10 +6,9 @@ Packages are signed with a GPG key to ensure authenticity and integrity.
 
 ## Available packages
 
-<!-- BEGIN PACKAGE TABLE -->
-%b
+<!-- BEGIN TABLE -->
 
-<!-- END PACKAGE TABLE -->
+<!-- END TABLE -->
 
 ## Installation
 
