@@ -474,3 +474,19 @@ Description: Decrypts a password-protected PDF file using the 'qpdf' command-lin
  This package installs the 'unlock-pdf' script.
 License: MIT
 
+Package: unlock-pdf
+Architecture: all
+Version: 2.0.1
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: qpdf
+Filename: pool/main/unlock-pdf_2.0.1_all.deb
+Size: 1694
+MD5sum: deee76389433e2325b641c1758959402
+SHA1: 89243b6d127058617ce24d2246835c9657582074
+SHA256: 7f6f2a6010a93dfc11bb9e34d6ab09cf1eeb17fef453457757531afc7b5ad777
+SHA512: c5972c850dc9fbe28f5869091c58c80b47e135cfbbcfca63e52519dc60683f652b6ee7de353f187637ef8553b1113cc34d03d3b2a76384650c7b7a016ad70fb2
+Homepage: https://github.com/jmerhar/scripts
+Description: Decrypts a password-protected PDF file using the 'qpdf' command-line tool.
+ This package installs the 'unlock-pdf' script.
+License: MIT
+
