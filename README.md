@@ -35,6 +35,25 @@ sudo apt-get install unlock-pdf
 
 For more details on each script, see the [main repository](https://github.com/jmerhar/scripts).
 
+## GPG Signing Key
+
+All packages and the repository metadata are signed with the following GPG key:
+
+| Property | Value |
+|----------|-------|
+| **UID** | `jmerhar-bot <dev@merhar.si>` |
+| **Fingerprint** | `E949 5DC0 EB91 48C5 6D62 793B 8DF9 1E70 7EE1 EAA9` |
+| **Created** | 2025-08-27 |
+| **Expires** | Never |
+
+You can verify the fingerprint after importing the key:
+
+```bash
+gpg --show-keys /etc/apt/keyrings/jmerhar-scripts.gpg
+```
+
+If the key is ever rotated, a new `public.key` will be published here and existing users will need to re-import it using the installation step above.
+
 ## License
 
 The scripts distributed in this repository are released under the [MIT License](LICENSE).
