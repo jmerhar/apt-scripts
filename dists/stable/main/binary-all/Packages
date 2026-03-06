@@ -1,43 +1,3 @@
-Package: install-dependency
-Version: 1.1.0
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/install-dependency_1.1.0_all.deb
-Size: 1630
-MD5sum: af541a8f861dbcb86cf74a8ff3f838f8
-SHA1: e1e0fb24694af0392a68ca8e42c34a47a3003110
-SHA256: 7680f527677d3f8547171bb2225597071a7ef1bd54647ba4fa8ca3dcc5fcc865
-Section: utils
-Priority: optional
-Description: A cross-platform script to install a given package on macOS or Debian-based Linux.
- This package installs the 'install-dependency' script.
-
-Package: install-dependency
-Version: 1.4.0
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/install-dependency_1.4.0_all.deb
-Size: 1742
-MD5sum: c0bfba201b08f97235128a433cb8f345
-SHA1: 57c9bdaf4a6536ec9cb5ec5484f35e46e9f2330a
-SHA256: 858c17b0e1c1cc65f9518b94446faf5a665c173bfd28e4397e83e9efa67e8f3b
-Description: Handles the installation of a specified package on macOS (via Homebrew) or Debian-based Linux (via apt-get).
- This package installs the 'install-dependency' script.
-License: MIT
-
-Package: install-dependency
-Version: 1.5.0
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/install-dependency_1.5.0_all.deb
-Size: 1746
-MD5sum: d7978c04a8bbb4f6897f70a8c982a9ce
-SHA1: 27c4f024014a4bc477959d4fc5ae422a75f32ff8
-SHA256: ba10c9ba27e689dfc6fc3c2fbf107dff636eb44f87eb6ef61402f5aca2148af1
-Description: Handles the installation of a specified package on macOS (via Homebrew) or Debian-based Linux (via apt-get).
- This package installs the 'install-dependency' script.
-License: MIT
-
 Package: local-backup
 Version: 1.0.0
 Architecture: all
@@ -100,139 +60,12 @@ Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
 Filename: pool/main/local-backup_1.1.1_all.deb
-Size: 4476
-MD5sum: 3b11e5154d5412e6a09ca1b82755094f
-SHA1: 0deb8147ba53059573b3dda0adbd4dbf190b348e
-SHA256: f89bf37487da6ad2765b5e22d945f6b6d65485c18f44535a4863f86855efd3b4
+Size: 4540
+MD5sum: c1b879e5fab7717b5e88da75c421aa11
+SHA1: 81f9dad73fc0be30f57726080ebe853212bb2d51
+SHA256: ea07d0c0b602290bcaee8d06b5fa5aad7b9025d8a640c9492175643240f91d92
 Description: A generic script to create and automatically prune rsync-based system backups.
  This package installs the 'local-backup' script.
-License: MIT
-
-Package: package-script
-Version: 1.1.1
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/package-script_1.1.1_all.deb
-Size: 3044
-MD5sum: 92f966ce0a738d71176c26f94d670320
-SHA1: 13f7f7df4efbca34d8f5f84b76a6b12bf8fe34a0
-SHA256: e54b252800168dcde3f0b81eaf332562df81a1e896f41c6d459d91c4b8800db7
-Section: utils
-Priority: optional
-Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
- This package installs the 'package-script' script.
-
-Package: package-script
-Version: 1.2.0
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/package-script_1.2.0_all.deb
-Size: 3318
-MD5sum: 352952922604bf2b788ce209a4222d3f
-SHA1: c55b81448b3e72bd11fa83f4e9b175ba00f2ddc3
-SHA256: 312901b285f7d7a40f72c797cdccaed1235639c9270901f58e3825d6267dab66
-Section: utils
-Priority: optional
-Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
- This package installs the 'package-script' script.
-
-Package: package-script
-Version: 1.2.1
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/package-script_1.2.1_all.deb
-Size: 3320
-MD5sum: 321be064fb69d52f4e99eeeb5dc067a4
-SHA1: 754cbec3abdbf6d02e99d1f8a42197ec187307b8
-SHA256: 23ef1888a91d0cb93b4fb21c98cffe3518872662f49ec4f244c610923047c365
-Section: utils
-Priority: optional
-Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
- This package installs the 'package-script' script.
-
-Package: package-script
-Version: 1.2.3
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Filename: pool/main/package-script_1.2.3_all.deb
-Size: 3320
-MD5sum: a9ca4338da7a2048d124c310633975d1
-SHA1: e3c99c24c07f11b06cd673d9b4d6cd672656da19
-SHA256: d75759492c975e55b10ab50d55b8c7db2f6bb3028555ecd3352832ea78267f42
-Section: utils
-Priority: optional
-Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
- This package installs the 'package-script' script.
-
-Package: package-script
-Version: 1.3.0
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Depends: awk,dpkg-deb
-Filename: pool/main/package-script_1.3.0_all.deb
-Size: 3784
-MD5sum: be427972b7a7764da279fab58f0638a3
-SHA1: 73244fa7f3ef62de45d3d824ece7fa4649e7d837
-SHA256: 1eceeb8a8ce8d8ccc669dde2d57f5989cf9dec3ddf6b516eaf5803e82bdcde43
-Section: utils
-Priority: optional
-Description: A generic package-file generator designed to be run from a CI/CD workflow. It takes the path to a script as an argument, parses metadata from a corresponding `README.md` file (expected in the same directory), and generates the necessary package files (`.rb` for Homebrew and `.deb` for Debian).
- This package installs the 'package-script' script.
-
-Package: package-script
-Version: 1.4.0
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Depends: awk, dpkg-deb
-Filename: pool/main/package-script_1.4.0_all.deb
-Size: 4118
-MD5sum: 4cd0d69d4d7e8b34ae3c22c699c006ce
-SHA1: 9b1858f7a8ce11457917fbc1071e0dfc024cdd92
-SHA256: cf0032dd558842002d9402a865887f61b412a0b1231a9944f488b63f385ffd9e
-Description: A generic package-file generator for Homebrew and Debian.
- This package installs the 'package-script' script.
-License: MIT
-
-Package: package-script
-Version: 1.4.1
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Depends: awk, dpkg-deb
-Filename: pool/main/package-script_1.4.1_all.deb
-Size: 4112
-MD5sum: ec76931e6921814a010fba0209b1aee5
-SHA1: 2e268516b6979d168e274624b7a75fdf03dea9ec
-SHA256: 6e0b6ded9671d118565dc3bcb688a6e5e60a6d0cc9f93607f47e73106310e83d
-Description: A generic package-file generator for Homebrew and Debian.
- This package installs the 'package-script' script.
-License: MIT
-
-Package: package-script
-Version: 1.5.0
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Depends: awk, dpkg-deb
-Filename: pool/main/package-script_1.5.0_all.deb
-Size: 4198
-MD5sum: f45ff2e5f04e181bc3da6ed49a6a6653
-SHA1: 4c91435dd79a533005a693e5c0e99c862846dc73
-SHA256: 27aa826b466fef0207e45539ade0e9baf6497f44ceb0409de0fd99230f30194f
-Description: A generic package-file generator for Homebrew and Debian.
- This package installs the 'package-script' script.
-License: MIT
-
-Package: package-script
-Version: 1.5.1
-Architecture: all
-Maintainer: Jure Merhar <dev@merhar.si>
-Depends: awk, dpkg-deb
-Filename: pool/main/package-script_1.5.1_all.deb
-Size: 4318
-MD5sum: a53d4ed4d6517cedd8ff79d9825f433c
-SHA1: edd6c4ddbaecabce8c713e72f4ef00b2967a5b9e
-SHA256: bb7031e0e360573d49ed40d146acc9d452989509109944c7906be9c27fbebf20
-Description: A generic package-file generator for Homebrew and Debian.
- This package installs the 'package-script' script.
 License: MIT
 
 Package: photo-backup
@@ -367,10 +200,10 @@ Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: rsync
 Filename: pool/main/photo-backup_2.0.2_all.deb
-Size: 6210
-MD5sum: d9ea22b095660bb971c168c55b86584f
-SHA1: d0999ad4fb7295b9730b3611c3cea161cb431379
-SHA256: 38bc009a27c27a74f30f6235c2d6be07cb0c4d0ae4942a8ccbd941e9183d843f
+Size: 6214
+MD5sum: fdcc7c17708667420f86fec613e2ce39
+SHA1: 113041f688d113596cbf070b15be06065f5391d8
+SHA256: a221a1cefedbd8037523c8a1e503259c7d0f0e4c35dbab0aeb72afdcb59d4e9a
 Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
  This package installs the 'photo-backup' script.
 License: MIT
@@ -438,10 +271,10 @@ Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: perl, libterm-ansicolor-perl
 Filename: pool/main/remove-sidecars_1.5.2_all.deb
-Size: 3998
-MD5sum: 85cfe337cb660ebf38025fe1cb051839
-SHA1: e015ab267c1f7cfcc8ee01474cfb8ceec1420186
-SHA256: 14905367d7e224daf0f5d11d041bc29ade55f6e0302f996ad87be21e864d090b
+Size: 3994
+MD5sum: 86a843fb3e2c6b15daa032020c448fd7
+SHA1: c1d582225e0cc2c05ea5441ace50f68108205d6d
+SHA256: 119ecaa7b7cbc45a4c3744d09bcad91e286bf4a49db57ee2fcc339fd1815c170
 Description: A script to find and delete "sidecar" files when a corresponding RAW photo file exists.
  This package installs the 'remove-sidecars' script.
 License: MIT
@@ -539,10 +372,10 @@ Architecture: all
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: qpdf
 Filename: pool/main/unlock-pdf_1.5.2_all.deb
-Size: 1770
-MD5sum: f6b4f3060d17e03f9835060fb8b7d27b
-SHA1: 08624fc0e1ea2d7ec5738236fd1adc7d03e7a735
-SHA256: 521ad73345b9e5f665b51e067a0c87dce2700569b3687baa9a28811a8b4bfff4
+Size: 1766
+MD5sum: 5f45ab9e5e33b2a7f611f90a3f7bd9e8
+SHA1: fbff56415005d06aaedbb9e1953833d7f122b58b
+SHA256: d9e50b662c90d29c9f1e6dae2af97b5f04c356ce296256edbde0663f44f503c7
 Description: Decrypts a password-protected PDF file using the 'qpdf' command-line tool.
  This package installs the 'unlock-pdf' script.
 License: MIT
