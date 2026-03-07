@@ -4,41 +4,41 @@ Hash: SHA512
 Architectures: all
 Codename: stable
 Components: main
-Date: Sat, 07 Mar 2026 08:55:48 +0000
+Date: Sat, 07 Mar 2026 08:55:53 +0000
 Description: APT repository for personal shell scripts
 Label: jmerhar-scripts
 Origin: jmerhar
 Suite: stable
 MD5Sum:
- 815553e35ee6d8932cbe562123e402a8              199 Release
- 4d0d5ce2399fdddf2f79e4148ef09c05            22778 main/binary-all/Packages
- a8ec593edea54d7bc7fedcda746125b5             7275 main/binary-all/Packages.gz
+ 97494c1363291fda72653e0a5fb4c8ba              199 Release
+ 41c38e6acf97dd5d3509255fabcd7e5a            23434 main/binary-all/Packages
+ 288778b86c108e316369844daea6203c             7459 main/binary-all/Packages.gz
 SHA1:
- 3a4558f84a65e42ebbaac3c865d05ea608fa9fc6              199 Release
- e3482dc0cdc395e8409909d6b808fa7f06dd0b77            22778 main/binary-all/Packages
- caf5a56696b2006ff920a73e3580a340fdaaf787             7275 main/binary-all/Packages.gz
+ 5d8505609f97f92432253af2bcd5480e09676bd0              199 Release
+ ced67b6bf74245b564c55d3b05424ae9b0489797            23434 main/binary-all/Packages
+ 7ee7fca02d065b2fdcc223c52c9940f227c048ad             7459 main/binary-all/Packages.gz
 SHA256:
- f22e6e67f38ae314e192c2af16d659d2021bb0b56abdbc884a2ff93352b54088              199 Release
- 54aa33f9b42f3dbf190505a5f0ca81c26b5fa3534f7b5ea08a0d3680adb47d13            22778 main/binary-all/Packages
- 1b7f33b0ec74913082d3353ded015a1bfb874393b95e4dfe752c9a5f49d7fef3             7275 main/binary-all/Packages.gz
+ ebebcfcae6c025d8eb8b88e9e2c47bb14edb6090ed30ed3b03597d814c9c669d              199 Release
+ 670f55a8b6809991a24712a7d34d2e462ec0152e0e47ad73c74803c285b106bf            23434 main/binary-all/Packages
+ eb105c786ff17372a6a844d3a254a0217ad993423e6dae17d59f9877551ac5fe             7459 main/binary-all/Packages.gz
 SHA512:
- 482d6cee6b031630b620a378830f6e1e06c2ac608d25071215997ded0ef3152e19eb832f25a9f843f055c1a09bb4a40e0c18fe4c4670975dc95504900fecd662              199 Release
- 1627e7015bc09867f290b3204f9393eef973062f2d2745c42e7ff6fbf6b31e1bd9e448fedddac1fb07a5ee141794a60f42cbc99ca3a365f4f7ffb62f005f3551            22778 main/binary-all/Packages
- 38a3b8df97041734d86b036361d18ab0f21a41a2ce66492b109885b5cf0974412dae5c1829922bce8248b0030de019da6d4476010b418dc045c930f09fac5890             7275 main/binary-all/Packages.gz
+ a7788de04d388937c456c55b540a5e53b4f1a995e5ebfede91f67ff2435bf28caacc396609f48f3a9f54e28845dbf8f9a23fa547a8cbd612fce90cfa5b02d683              199 Release
+ 8129c1c847ae17d629dfe1877b850f43be501cb675ee5fb30c757db322aa0ee10827de82fc90ec68b3f7143cd805c35734d8ebf21e44eab8da461ef46e447f6a            23434 main/binary-all/Packages
+ 97d860e11d07be79ab62136594bbc8d940d95490c44abd200935b635092e6c5649c4701fa9a45aad9068475611ac95b2fba70176fd9e1e9d37b6c7fecb3c9da5             7459 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEE6UldwOuRSMVtYnk7jfkecH7h6qkFAmmr6BQOHGRldkBtZXJo
-YXIuc2kACgkQjfkecH7h6qml/A//cBY0+h6xEnmtSaqohLHL2jZhEN0Mq2Q1p9+U
-I4GfJoTFWf3nNfAYCbrOT9GmLyVHMqKT3BjjNO7CLOOu8uU3790VGlziidAz2jF5
-ETPKrPJEhWkG7kwkWJvNyK10nzmsHzPyZVhPAaP+WG3k5Kx3UFYty05z/r2AqtRt
-EYXHrh2ruVHZVSMDG4kHfdk8dcUo3H/Eg3ld4wn1XyQo83+6pHfmwe2ffm5YB5I+
-w+/kEIpK6tSdvISDl+AdYRVwQq4urAN/GFJUQSOUBy9kcQ+EIYZGGiPGz23p3g/V
-K+9gnyskJpHRDejzdSbLAGPvIpJuT+udmftrG9ohiWfWHyEScj9TAWByDSr0XVkw
-ShWrYgI/GVFjjQ9PT0Hjxl+lkwoylG7W+TC29e6jkxNgZik7SDwq40zy++iRIHFz
-VA0MHm7dn/YE/HOSnD/ZiRcDbpDkZSF95kuKGK5WyrmJ65TjkrSs/7a/ndzhI5uN
-RyB6kR5CMveT4462+DQxNe/c4c+m0NBx2vetyN8T49/Ef5jJAs32XKJEVwyHeRbc
-YrsvtymSdhJry8fTmFhg6wRPQg/KImr+nDFtr575Y4i8npOPvAAz9l0k99Fea3HB
-vCz+ZbIKq0zduWOvsLu6FNhHKb5FnNSF8Sq5dR338pIWyapcTIzRFVBLegqDTJHY
-ptn7xbA=
-=13PP
+iQJCBAEBCgAsFiEE6UldwOuRSMVtYnk7jfkecH7h6qkFAmmr6BkOHGRldkBtZXJo
+YXIuc2kACgkQjfkecH7h6qkIKw//VTUZ9K3Qb0gORrdyqHGnl74hiw1UHJ9le3UF
+sHKtHyyTjXTbsGYLojlR6DNVYVxdHTjs+uEhWKUb/59I0ZwG0sqUYpApfANli6EA
+K3xhOYfAKaW/IIygSwnTDNsv0d+vmFkl4MT6MIRoJFrqJw3yqLbHho7j1h9KFWl9
+rZne87C3rvirBw2gdO+Y8/4mUfggYgoiWkT0SXB5jt5DfVCXF2JLygT2eDj3Lmns
+bssUQ0vaRA9inCrFab6DZQ7JTRlHouHI8QjKfdiMTRwpefIOl8OTfeYZgRsmnnRl
+XHlXSUGDekvopuQoiQz8RWMNJXUMgUF6m39iw1yhOolbsH9vNYxfKg9mnj8b2Yeg
+YK+DaHK82bW0PkM9oBhJwy9iGsbYlhJdW1kSuKvtN0KRGSaEqByuoB81vgTDoEAa
+UnG2pkO8Zwboj1WE4firqm/XgZUDk0ioyV+JO647w3S8SkwtEJykc3pToKJins7/
+vRvdDDhthw2/dBOkhTmBiu7E/8xsqQqipRZ8BLAGQ+9cHxDUtTBeAkrPW16+jNpO
+Qjghq21KylO+ZkgqQMP43RM/pYZQ2H/y0s5iy2HOf4xnj1qN4YrPXzSIZjM9u1Zo
+v51ljFIOu3TWJfLxu8XzqjSXGLQ2txgOc36TTQZ1jM4xWf+nLGFkDLAZInU6OUN8
+1GBustY=
+=e1fC
 -----END PGP SIGNATURE-----
