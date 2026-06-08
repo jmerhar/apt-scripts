@@ -1,3 +1,18 @@
+Package: compare-dirs
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Filename: pool/main/compare-dirs_1.0.0_all.deb
+Size: 6124
+MD5sum: 2fb20954049096e6bf4ba1ac765f43e6
+SHA1: 9fea773518e126d01cb8173a8d123742441cb81f
+SHA256: 6df14ce6764b426b87646622256da3b51f2eaafc889e8d9a24a9d7e8e62d7a94
+SHA512: 445e955a4ce762ae99c56653bf4464fd7eaa4b4716e4ab6eed18e556abfa2756d5e188f96299f388c043916a4af484122600a19088b550463b96480930655b87
+Homepage: https://github.com/jmerhar/scripts
+Description: Recursively compares two directories and reports differences in existence, size, timestamps, and checksums.
+ This package installs the 'compare-dirs' script.
+License: MIT
+
 Package: local-backup
 Architecture: all
 Version: 1.0.0
