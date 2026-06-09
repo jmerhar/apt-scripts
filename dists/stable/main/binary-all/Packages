@@ -368,6 +368,22 @@ Description: A robust script for backing up photo collections from multiple sour
  This package installs the 'photo-backup' script.
 License: MIT
 
+Package: prune-orphaned-torrents
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: curl, jq
+Filename: pool/main/prune-orphaned-torrents_1.0.0_all.deb
+Size: 11202
+MD5sum: 1b91b5c954389e2064883eedcde62f17
+SHA1: 5e588d809d52989d93d87570cb7f10cd62945f48
+SHA256: d739f19899e64224987aba2bf0a07bc5f393b88b484f5f4434ae81b5b6ca9ab8
+SHA512: 52689a8eabf0a1b2b0f0f431df484078935ef0b33f80c0d7b3ea4b241135c72f3a760317d7bd093e026304dc0692a7c9136638cf65c89e669a9dd3b30c1fc68c
+Homepage: https://github.com/jmerhar/scripts
+Description: Finds orphaned media files left by *arr hard-linking and interactively removes the corresponding torrents from Deluge.
+ This package installs the 'prune-orphaned-torrents' script.
+License: MIT
+
 Package: remove-sidecars
 Architecture: all
 Version: 1.3.0
