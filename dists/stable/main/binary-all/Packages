@@ -617,6 +617,22 @@ Description: A script to find and delete "sidecar" files when a corresponding RA
  This package installs the 'remove-sidecars' script.
 License: MIT
 
+Package: subtitle-report
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: ffmpeg
+Filename: pool/main/subtitle-report_1.0.0_all.deb
+Size: 11836
+MD5sum: 8f5dd78247562d04d71d676f5a3774a5
+SHA1: a6142e27768686513ca99182e434d929101d1d55
+SHA256: aaa03c3e643f7b1024c181810b4a4582569714a729aea0fb46312e2a0dc9773e
+SHA512: c8693da3554aca41db03de748341d146f012d4bdcfac2f57774dd6b73e972a97ffed43f8584835fda115cdaf31ee4d9e7e851e7352860c341004796c78bd03e9
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports on subtitle coverage for a media library, detecting embedded tracks and sidecar files and breaking down counts by language and source.
+ This package installs the 'subtitle-report' script.
+License: MIT
+
 Package: unlock-pdf
 Architecture: all
 Version: 1.0.5
