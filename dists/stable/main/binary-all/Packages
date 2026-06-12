@@ -633,6 +633,22 @@ Description: Reports on subtitle coverage for a media library, detecting embedde
  This package installs the 'subtitle-report' script.
 License: MIT
 
+Package: subtitle-report
+Architecture: all
+Version: 1.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: ffmpeg
+Filename: pool/main/subtitle-report_1.1.0_all.deb
+Size: 12612
+MD5sum: 7a94055c8ad6179ac9d9099b0cee4bc9
+SHA1: ce6baf2a9fbab3708562bed0444ab655c1c8c62c
+SHA256: 8cadeb3a58fda8bbd90988c8ccc03a876800880e249794e785ad895374dd7a45
+SHA512: 69c4b365f22017308b9388cc5e6e98c2996fb3871f75295d2bd2d34c1b9400623ec0ecc77a9d31bc1ac10d30dbfedee1f31ae6879a922117899604b075cd90d8
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports on subtitle coverage for a media library, detecting embedded tracks and sidecar files and breaking down counts by language and source.
+ This package installs the 'subtitle-report' script.
+License: MIT
+
 Package: unlock-pdf
 Architecture: all
 Version: 1.0.5
