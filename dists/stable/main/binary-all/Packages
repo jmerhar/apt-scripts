@@ -649,6 +649,22 @@ Description: Reports on subtitle coverage for a media library, detecting embedde
  This package installs the 'subtitle-report' script.
 License: MIT
 
+Package: subtitle-sync
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: ffmpeg
+Filename: pool/main/subtitle-sync_1.0.0_all.deb
+Size: 14016
+MD5sum: 14c543e44b76a61a9068032c188c8dd7
+SHA1: 761bb0c85f7938e8023273c03304210085bc2566
+SHA256: 39bce22d6935588959c0448d854b6936d58eb9ed07ff7a897b39070b04306d1d
+SHA512: e943869341e3971e2b1fc9023197cd41eab4c0181dc84d5d3851f323b96e3f99f6f084f29178495767f8f966ac274b7e4f516b3dd9b2c16e2a382549d0c5cfb4
+Homepage: https://github.com/jmerhar/scripts
+Description: Resynchronizes drifting subtitles to a video's speech using a Whisper transcript as reference and alass for segment-aware alignment (handles ad-break, global-offset, and speed drift). Requires the external tools 'alass' and 'whisper-ctranslate2' on PATH.
+ This package installs the 'subtitle-sync' script.
+License: MIT
+
 Package: unlock-pdf
 Architecture: all
 Version: 1.0.5
