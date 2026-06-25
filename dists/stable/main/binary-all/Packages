@@ -197,6 +197,22 @@ Description: A generic script to create and automatically prune rsync-based syst
  This package installs the 'local-backup' script.
 License: MIT
 
+Package: nopasswd-sudo
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: sudo
+Filename: pool/main/nopasswd-sudo_1.0.0_all.deb
+Size: 3368
+MD5sum: 1234b3a2505e8bc16f2e969dd05b4c49
+SHA1: d5a4eccf7ce306533e74811481a6d3c46019b325
+SHA256: b2afdf2a8f3d98869cffb7b8773999ca882cad113345ade46c3f5e91d6d0423d
+SHA512: fd3bb62aac5fb4f1b85767fb958d64c4ea90461e05180fbc7ca9e6ca64e6d35a6845d772ec5451a80972177d6e6feb2fc972f5efa24391c64bfa3b49dc671c1d
+Homepage: https://github.com/jmerhar/scripts
+Description: Toggles temporary passwordless sudo for a user, with an in-session auto-revoke timer and a boot-time safety net so it never stays enabled by accident.
+ This package installs the 'nopasswd-sudo' script.
+License: MIT
+
 Package: photo-backup
 Architecture: all
 Version: 1.2.0
