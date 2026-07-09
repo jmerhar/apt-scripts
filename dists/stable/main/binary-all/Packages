@@ -74,6 +74,22 @@ Description: Aggregates a folder of DMARC RUA reports (.xml.gz/.zip) into one ov
  This package installs the 'dmarc-report' script.
 License: MIT
 
+Package: dmarc-report
+Architecture: all
+Version: 1.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: curl, jq, libxml2-utils, unzip
+Filename: pool/main/dmarc-report_1.1.0_all.deb
+Size: 12822
+MD5sum: 64d85279f416c6917f85f90288f724ed
+SHA1: 7326fac0986a6ec68cc71f0a9833bcd9291b211a
+SHA256: 48455e16a4a83e9b8ecd031df3d9df09f0255a4e0e5b31a89e5cb2d017302618
+SHA512: 02dc0c329d1cf86f3cd833cdaec9b48dad0996398f94ada562ebe6c06cc7b97161e705a369ecd49e31b3286efdc4ef0cadf5f1645a639a3b02be70ff4386111a
+Homepage: https://github.com/jmerhar/scripts
+Description: Aggregates a folder of DMARC RUA reports (.xml.gz/.zip) into one overall report, tracking policy changes over time and flagging unenforced domains, unaligned senders, DNS/DKIM errors, and spoofing (grouped into subnets with per-range country lookup).
+ This package installs the 'dmarc-report' script.
+License: MIT
+
 Package: local-backup
 Architecture: all
 Version: 1.0.0
