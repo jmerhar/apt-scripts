@@ -58,6 +58,22 @@ Description: Recursively compares two directories and reports differences in exi
  This package installs the 'compare-dirs' script.
 License: MIT
 
+Package: dmarc-report
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: libxml2-utils, unzip
+Filename: pool/main/dmarc-report_1.0.0_all.deb
+Size: 11690
+MD5sum: 177a9a0db2ab715fa7626074b094bf59
+SHA1: c97f293401bda6d3c8007fcc3ccfa2723eeeba86
+SHA256: 4eb21d5b7b6413273112454ea6d69fea4516cbf7bd496922c023729dab9e391a
+SHA512: 29a741b6e6e8f7771b74a13eada7444d9ce8715fc1dcc22846d0a1ee873f6045ada2d532b21dc72ac85e9a591ed72780bf684089107024d4df548a458ee9151d
+Homepage: https://github.com/jmerhar/scripts
+Description: Aggregates a folder of DMARC RUA reports (.xml.gz/.zip) into one overall report, tracking policy changes over time and flagging unenforced domains, unaligned senders, DNS/DKIM errors, and spoofing.
+ This package installs the 'dmarc-report' script.
+License: MIT
+
 Package: local-backup
 Architecture: all
 Version: 1.0.0
