@@ -229,6 +229,22 @@ Description: A generic script to create and automatically prune rsync-based syst
  This package installs the 'local-backup' script.
 License: MIT
 
+Package: mdcheck-progress
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: mdadm
+Filename: pool/main/mdcheck-progress_1.0.0_all.deb
+Size: 8066
+MD5sum: 26977ada8e3e4b6f298e9b5c65bd4bbb
+SHA1: 2e7c83b00946f38d7f2e3154ae707ebc022b46a8
+SHA256: adcd6ad3acabded3ffacf0b0d4669a2aa1f927d875a360bf9b6a366802f97189
+SHA512: 644a614a311234ee2d71fcd51ca710c46367114681b1854369869149fe97a55213799d19cb939d76a77c274f662096af1abae20f700cd1d27aff6121063b6a95
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the progress of an MD RAID check (Debian's monthly mdcheck scrub), including while it is paused between nightly windows, with a schedule-aware estimate of when it will finish.
+ This package installs the 'mdcheck-progress' script.
+License: MIT
+
 Package: nopasswd-sudo
 Architecture: all
 Version: 1.0.0
