@@ -58,6 +58,22 @@ Description: Recursively compares two directories and reports differences in exi
  This package installs the 'compare-dirs' script.
 License: MIT
 
+Package: compare-dirs
+Architecture: all
+Version: 1.2.2
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/compare-dirs_1.2.2_all.deb
+Size: 7300
+MD5sum: f6110ca89204587e446976f4d92cacae
+SHA1: 79cb48c2b81fbb955ff0a6ceb3d59ae797a0c5bc
+SHA256: db0a69f8b85bb88bc5526c6e6d1a039ea4452c4d30b868db5a4288c4e1840a16
+SHA512: e84338a2dae1cdfbfd6e43c1dfd4003d4c31659d0a6f20514ff20b74bef3ed3224b0f7634653ce47f4038a46c596a0ed11d438570b26c9e35cfe7278d8f4284b
+Homepage: https://github.com/jmerhar/scripts
+Description: Recursively compares two directories and reports differences in existence, size, timestamps, and checksums.
+ This package installs the 'compare-dirs' script.
+License: MIT
+
 Package: dmarc-report
 Architecture: all
 Version: 1.0.0
