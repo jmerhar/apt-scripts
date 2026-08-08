@@ -543,6 +543,22 @@ Description: A robust script for backing up photo collections from multiple sour
  This package installs the 'photo-backup' script.
 License: MIT
 
+Package: photo-backup
+Architecture: all
+Version: 2.1.2
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: rsync
+Filename: pool/main/photo-backup_2.1.2_all.deb
+Size: 6426
+MD5sum: 19de3d0d0703642b9d64d22f88368b33
+SHA1: 2f13bcf9a691b8f8ad2ea4a4c39b3376af908518
+SHA256: c46a83bc2bf4c48bd6226a916c5cdba6dc2dc2fed04bb2497d692ca3d2427128
+SHA512: e2861b98363d6ef6d3ef72b549753762b3124518a994be97082cdda3f4d155f4ecc60a9ecc5810166ebe4b90a69f8a892d20ad44b36db952c943673e14be9b64
+Homepage: https://github.com/jmerhar/scripts
+Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
+ This package installs the 'photo-backup' script.
+License: MIT
+
 Package: prune-orphaned-torrents
 Architecture: all
 Version: 1.0.0
