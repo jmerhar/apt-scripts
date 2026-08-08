@@ -325,6 +325,22 @@ Description: Toggles temporary passwordless sudo for a user, with an in-session 
  This package installs the 'nopasswd-sudo' script.
 License: MIT
 
+Package: nopasswd-sudo
+Architecture: all
+Version: 1.0.1
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: sudo
+Filename: pool/main/nopasswd-sudo_1.0.1_all.deb
+Size: 3462
+MD5sum: 3b4078b6fd336c3056e68d8e9ba3d230
+SHA1: 0800635c7928957b606327feb837815489f405f5
+SHA256: 8fcdb13be979f797732c11dde758c7e8582f7c3b29b963990212fd1d13378523
+SHA512: 9ffc8d04f44f3b1c95214b0cec8ba47c8beb3f0cc2183fc934f224bc2a5bc759b5e1c140c20804bede4058c92584054877646eb701bd8b41addb6f944b3bd090
+Homepage: https://github.com/jmerhar/scripts
+Description: Toggles temporary passwordless sudo for a user, with an in-session auto-revoke timer and a boot-time safety net so it never stays enabled by accident.
+ This package installs the 'nopasswd-sudo' script.
+License: MIT
+
 Package: photo-backup
 Architecture: all
 Version: 1.2.0
