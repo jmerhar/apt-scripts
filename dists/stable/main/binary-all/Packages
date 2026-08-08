@@ -261,6 +261,22 @@ Description: A generic script to create and automatically prune rsync-based syst
  This package installs the 'local-backup' script.
 License: MIT
 
+Package: local-backup
+Architecture: all
+Version: 1.3.2
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), rsync
+Filename: pool/main/local-backup_1.3.2_all.deb
+Size: 6108
+MD5sum: a210fd52806f0183bc7b3dd885dbc179
+SHA1: e200352ecb2c18e4447abb2c3d0868495f7ba0b7
+SHA256: 4c252a8bc711409c9bb0d7d58d7ca16f783b29e5ee21c9f2974e9f3cc6dff8f9
+SHA512: 041f5e64f7e5f835f5f753927787c029769d44bc8d44f250490b63d4599795d689694802159690faf2f9e0e300d349ad61c8fb05cf5d22f168c2e1dfa259e08c
+Homepage: https://github.com/jmerhar/scripts
+Description: A generic script to create and automatically prune rsync-based system backups.
+ This package installs the 'local-backup' script.
+License: MIT
+
 Package: mdcheck-progress
 Architecture: all
 Version: 1.0.0
