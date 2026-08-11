@@ -809,6 +809,22 @@ Description: A script to find and delete "sidecar" files when a corresponding RA
  This package installs the 'remove-sidecars' script.
 License: MIT
 
+Package: remove-sidecars
+Architecture: all
+Version: 1.7.3
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/remove-sidecars_1.7.3_all.deb
+Size: 7944
+MD5sum: 1413dd7ab49e8483e97b22df16e31729
+SHA1: 1b2808c864ded67b8298258fac9b27a2cd164f80
+SHA256: 8b9cd2743294abdfeed5e7788321c9376276cb1449c2de5ff0114f7138d21dd9
+SHA512: a8808dd94b5c93af57592b3ffe315397ae839f728156a802aa22b0ac67150398da8af0040dc636b207c772c11961dc32b28417735c0249c6baa104d335b5bed8
+Homepage: https://github.com/jmerhar/scripts
+Description: A script to find and delete "sidecar" files when a corresponding RAW photo file exists.
+ This package installs the 'remove-sidecars' script.
+License: MIT
+
 Package: subtitle-report
 Architecture: all
 Version: 1.0.0
