@@ -1,24 +1,24 @@
 Architectures: all
 Codename: stable
 Components: main
-Date: Mon, 17 Aug 2026 10:41:17 +0000
+Date: Mon, 17 Aug 2026 10:41:23 +0000
 Description: APT repository for personal shell scripts
 Label: jmerhar-scripts
 Origin: jmerhar
 Suite: stable
 MD5Sum:
- 3c9a59f573fbd88111bbe1644e25378a              199 Release
- 539ed2aeb4a3950d1d3863c40a82b05b            55071 main/binary-all/Packages
- aa2098cf19af5dda19860de3a848f4b9            16486 main/binary-all/Packages.gz
+ f3624f5336c95885870ca3ce71e20478              199 Release
+ 64b557a1bf1fc6d588865c44110ea854            55812 main/binary-all/Packages
+ c0f0e81e5ace595657ea8593b20ea2f1            16671 main/binary-all/Packages.gz
 SHA1:
- ee0d714a1b23b8b74413aa0218caaaf8631c4644              199 Release
- 5821be0ac3311e7ab88beccee5c77ad835525493            55071 main/binary-all/Packages
- ddba70cb7e2abe39f1e86e3132ce33f134b94dc5            16486 main/binary-all/Packages.gz
+ 0ad0de0cc5351b58f7802b9bce5918e8a9749528              199 Release
+ c69efc80e8f28719d43d51ee01a2902eb69857ad            55812 main/binary-all/Packages
+ 9f268dd5097e396cde5f0b0fc15f2702936bfb1f            16671 main/binary-all/Packages.gz
 SHA256:
- 8391d9e8ea66596472762c7d5c444761ac6c20049cd9928c0c518bef13edfe95              199 Release
- 202b407f1e58281811c0cf8c5040c8ff2c5a90d737a22a49a0c9c78dd84239a2            55071 main/binary-all/Packages
- 530471d617ffadc855929c6a944bc3a921f2ee8295b13599eb7e8d3c2848445c            16486 main/binary-all/Packages.gz
+ cab92cc35e7352783e6f0f5f7c7e0af16ce5cdf101b761d65f4237bd299f46ae              199 Release
+ c8c645f6637b65c3cd6067063f057d917a943e6386c535f0403bc5d87f54ca6c            55812 main/binary-all/Packages
+ 7bacf1e6466495243ea703803ab739e7885c1328d917e8bd9ed849813cb0f027            16671 main/binary-all/Packages.gz
 SHA512:
- 36070b78d6a55870bee12d138485a8f720612fb3e6c5c207f8bedbb368fdb5c76e6cb801d516b02892b075e2e4bf6ec64c53b617c7d318a9289ee3e9f6a939b6              199 Release
- 085f16408642a43a93d9ffaa194d6cf824dcf1e18d108e4bf83d600bf63f04050fecc937791966bc0fd216ecbf380253a88a8c29740f9bac8ca00c5fc566813d            55071 main/binary-all/Packages
- 690f8f51217d5805ea03bdb956764ef2a850e6a455f6e286afc0a182922b15cba6e40c71fd482c3bb18f31c577b9ce1db66b5f84db82d116ad504bd4096f1357            16486 main/binary-all/Packages.gz
+ d801776cd6537e5269a2c0ac27ab03db3014e88946f6f31e061ccac4dfe1365da6266b7e796733af451d83c31be69909b97aeef58a99e87d5ad012dba0ac6ac5              199 Release
+ e4e8fea2236e3a2355396ef4e4c0c7902778fc183a5fec71dd1eb90c441942b8ce8fc1afcf9462be621106e0fe2f51cccfa6dd35230eb1fe359d357182d9ab58            55812 main/binary-all/Packages
+ db05d5cdb8022393848ae5db1e0ebd901afd812dde60d789c1b15f40672f76ea3abc70ce626db2757ca9730afdd5d47861ea65f1c4dfa85f4b863cdf306b5c0b            16671 main/binary-all/Packages.gz
