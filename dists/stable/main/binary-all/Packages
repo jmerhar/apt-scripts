@@ -1065,6 +1065,22 @@ Description: Resynchronizes drifting subtitles to a video's speech using a Whisp
  This package installs the 'subtitle-sync' script.
 License: MIT
 
+Package: subtitle-sync
+Architecture: all
+Version: 1.2.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.3), ffmpeg
+Filename: pool/main/subtitle-sync_1.2.0_all.deb
+Size: 20758
+MD5sum: 628b08527634a218414fab10591e5bbf
+SHA1: 5237c949614d83160ac197a849b5b2b05f090404
+SHA256: 5001d5b6d9579dd74389c644a43e7590f9eee6f076663d3b4861071d925b89f3
+SHA512: 1da1d56bc0dc5d1fa93dcc31a193baa076231b9a89833c55a5638d668fa7ec7dbd0bbb1833f8ecc7851d870aa70fdbdba60c0b873a1c2ded162d56be3f85e69c
+Homepage: https://github.com/jmerhar/scripts
+Description: Resynchronizes drifting subtitles to a video's speech using a Whisper transcript as reference and alass for segment-aware alignment (handles ad-break, global-offset, and speed drift). Requires the external tools 'alass' and 'whisper-ctranslate2' on PATH.
+ This package installs the 'subtitle-sync' script.
+License: MIT
+
 Package: unlock-pdf
 Architecture: all
 Version: 1.0.5
