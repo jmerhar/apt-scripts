@@ -357,6 +357,22 @@ Description: Reports the progress of an MD RAID check (Debian's monthly mdcheck 
  This package installs the 'mdcheck-progress' script.
 License: MIT
 
+Package: mdcheck-progress
+Architecture: all
+Version: 1.0.2
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), mdadm
+Filename: pool/main/mdcheck-progress_1.0.2_all.deb
+Size: 10790
+MD5sum: b1c91ebd09876e4dfc681fd22e528770
+SHA1: d2b5d2f5ea89c116988fd61e640390ee07aa5044
+SHA256: e1749b4970b282d6cd57a149cac7a36d30303af42fed17d420bf9d6c11b87617
+SHA512: 0090f0c293b565e74fd47b5bb83325b0388670c6ee3dbe0c1855eb7ed9236b9b560fdbe28dcd64963503fa8db9a148e1ac7434efff057d76c6b2d6b70af4039d
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the progress of an MD RAID check (Debian's monthly mdcheck scrub), including while it is paused between nightly windows, with a schedule-aware estimate of when it will finish.
+ This package installs the 'mdcheck-progress' script.
+License: MIT
+
 Package: nopasswd-sudo
 Architecture: all
 Version: 1.0.0
