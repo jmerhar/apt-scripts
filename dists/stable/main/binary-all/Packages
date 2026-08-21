@@ -1161,6 +1161,22 @@ Description: Resynchronizes drifting subtitles to a video's speech using a Whisp
  This package installs the 'subtitle-sync' script.
 License: MIT
 
+Package: ufw-docker-expose
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: ufw
+Filename: pool/main/ufw-docker-expose_1.0.0_all.deb
+Size: 9960
+MD5sum: 3b7740712e375422e2a905590d39c8af
+SHA1: 019bd112b7474060e1e65b3cc67a222f82bbf10c
+SHA256: 7804749df465e828eb159d6b9ef23468b73bf75e9eb792d0eab05c1b613ca803
+SHA512: 07211860f4883c70a073d7b2afd74c6503be68f703f7916fa335361c5617a27f1662a505306bf45134ec1a5f1f92b5de8aefee915e63e59aec173d25f37b6d5d
+Homepage: https://github.com/jmerhar/scripts
+Description: Opens external access to Docker-published container ports using ufw route rules keyed on the port rather than the container's address, so a redeploy that renumbers the container cannot silently close the port from outside, and constrained to container address ranges so the rules do not swallow traffic the host routes for a VPN exit node or subnet router.
+ This package installs the 'ufw-docker-expose' script.
+License: MIT
+
 Package: unlock-pdf
 Architecture: all
 Version: 1.0.5

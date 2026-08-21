@@ -4,41 +4,41 @@ Hash: SHA512
 Architectures: all
 Codename: stable
 Components: main
-Date: Fri, 21 Aug 2026 08:49:08 +0000
+Date: Fri, 21 Aug 2026 11:41:07 +0000
 Description: APT repository for personal shell scripts
 Label: jmerhar-scripts
 Origin: jmerhar
 Suite: stable
 MD5Sum:
- 7aee23f94b602adea0a18d0ed53f2365              199 Release
- 0f2e5bd3b6e7c2dc65345380738eec1d            61221 main/binary-all/Packages
- 4e3015e69933949f8c358bdbf6a280f6            17996 main/binary-all/Packages.gz
+ 4237b945b36cc6975b2c52f46126bb7f              199 Release
+ cd3fe965ffd973d5631e83ba29609508            62179 main/binary-all/Packages
+ 5314455573aca3b6b8382ddc22fb95ff            18435 main/binary-all/Packages.gz
 SHA1:
- dba472efa2e181239d6328e6766230e4e511287c              199 Release
- a037c21bf141a19db8441e87ada1a459a500c2a4            61221 main/binary-all/Packages
- c65d1ba9f62f7c4b0c923cebd1c377fef0ce1e02            17996 main/binary-all/Packages.gz
+ 89c428348e457776c96af15f2c5049adb0759d64              199 Release
+ a5e14b1936e87f17c8d568ac2c5c5adcb906f03d            62179 main/binary-all/Packages
+ f1b734607f49530aaad3e19a68f17c4359e9ac4b            18435 main/binary-all/Packages.gz
 SHA256:
- 2bc2ffa76d7d26a1a32f994bd270ed923e7dbf1390b2381fd41383ef54363e7e              199 Release
- 567a4e56d4069135b5ae8b74822da93b868fbd327750bccc4c6cd69387e6770c            61221 main/binary-all/Packages
- ac317790170420472b26e057201e3ff61d9e8d81cdfba23e3a3ac2687b22a0cf            17996 main/binary-all/Packages.gz
+ a6a4007431f8ba6333be1ac9ed70e07a2e3e05d3a199a98a94039a8be1727cc4              199 Release
+ 474b9356ca1992c6d6518262ae2227f435c51790623fe93b41dc891d33636553            62179 main/binary-all/Packages
+ a3d9b0b1949d7f631622ec9703ec65b7a4828e086553e675aa1a1de7014994fe            18435 main/binary-all/Packages.gz
 SHA512:
- 15f4758ac74c8b4ddf839870a4f4567b25d2267c0bd2c64ca487ade4b841ce2f7d812cdeb0e3a3fb0c49cf3e8b412b48e65355219563a9b4316e843b14a2b72a              199 Release
- ee5b1840e75e7b591f7fbf2ae8ce9bdbe862201c687b8068f7847b80371ffb5b12a587f0f5fdc7c3be864295bb1a984afb3e6043eff6c052ec2cd0b17a4c5c02            61221 main/binary-all/Packages
- 05480ec18e4bf2b1ab557bde919eaefb41e81a7c725737babe96c35d6136172b5c43aa1900e9a97fc33d8d1c3ed6233eb5d420d147a5b71866a578d08b7095d5            17996 main/binary-all/Packages.gz
+ 11254f2b22ecaa9254157b95b21ef43b7f7238eb074c59ec2054c57eb654ad7c74741c954e2b4bf0b8224b72d4c4b738d84a319e8b21c5f6c2a971d1d99f155e              199 Release
+ 2d679a392dda733b0b8f245ef13fa81e75b35ebc45e06f1486eaf4c4e2977216d5f12b0db586e91fde2e87e1147d43cdc2dab8adcac526b7231347af1f15dc04            62179 main/binary-all/Packages
+ 78fedb65f934e260387f3c4deb50d040421128174f1b38a22c325c5305db80e5dedf548029dc7d9d090dfe998a42cded1f9b5928538106e8fac8133e60111086            18435 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEE6UldwOuRSMVtYnk7jfkecH7h6qkFAmqIEQQOHGRldkBtZXJo
-YXIuc2kACgkQjfkecH7h6qlupA/7BNKIoA1xX51AyOyxd7o4XwL/vKNHa1TvccDR
-kFChtAVxi+6CRuk16QxlZWSal1hatqHmGogt6nHJc1HGxTTHHkxkCYN01SdEpnxC
-hZeUrXTj1yb/x7DyY5o1obl/KUfTcpXsb5RC3AN14y9Qvwu9RK0ZrMk1uaoY+rkF
-8Kkv+LwVq5KsjHit9+2S85nQ5kz+ICo8UPsYEaYh3l/Te9QDaVh0qvXNSHLTSQRs
-puct/V3a8teXE6GLUBYSUQmeQhVXrA5/roHNm8fXoyctg+fwQ9rtFFDe654WqzMQ
-8WSWcPG9pEaC82FRc/7VJE0Ch5BaWa5Ys8xzhXmjI0Qn1YMystuyktml/RLT09vk
-Ng+VLg+1jhQ2oLmLvKG89W21V8oWlSEknY8nWOw/dF5q82/ImtQi+leXaqXLZ9MO
-jWnsuUmPg5+EN2wdsQDpusibNG9wjeEpfITwE3UsWA59agZ+MeoXO7aKJMMPzL3M
-Nd4dPUCMhzlz/ivd0W77sEvMVbKCnfC+z8yyTHNNN5sJo/mhbnocSYEiuNLQb0ik
-oUqPzuZ85roSNMykAiIoH4cGRIlG+foIY4ByJwBMmSWsevRsGjQqJjpVRpi30nsh
-i+jZ9F05XsfIfABomlrj5VN8mDexeWiIRwqioHBNZeItqhCb6m/e2v7V0IaDcQbj
-/dJOQkA=
-=Be2I
+iQJCBAEBCgAsFiEE6UldwOuRSMVtYnk7jfkecH7h6qkFAmqIOVMOHGRldkBtZXJo
+YXIuc2kACgkQjfkecH7h6qnrKBAAj30LKs++pGfYaaWOaN2UgsnwDL5+YaDIMylK
+A63y7ogQgazNHZEZ1TQdVphfmbhtRWzwWwwz/k/LDYNf7ydaQBhVEzVZfHQyPgwe
+c3ZlYfeM2HDbJwsYT5575YMGy2+C5cdYjzrvL1DiVHoge57ZxVgyclHQ0a4YMiTB
+WRZekwM0zqlEjD0xPrAg5asqub6WgQcQbSU/oNU4ATbmJ6pOP6bOZ/63z8BP0NjI
+XjTqOspDBMDBI+1q0QfDx3OAmJrOx5kEmoG4F7t10IFyxCAhHEs0Z9iEdc6IdfWI
+I7q99aKbkR8X1B2C+XD3EUS0AKnku51CjXKOGxsboE1/QObHPhBEYS9u+6V1XHhK
+ZBlgq07TCV1vIJEksEWRk5cMhr+5+CtKzYzDYflThMnKpdNTZce+3Wm8mXlfKeXW
+VFIzQeTsNabpi2jMCg3JcY9xeTjefLnEwJh9pvP2drg4S3e5nqydZN4J2GWLt9v0
+7J3u7DC36vwc2unO1nOl2d9wDitN5UvhN6L02RE3CTKUMZQeD3ShIU40f69BKRGm
++IhBDghVH72jsi655Loou32Ery+mOn7rK/JAdbvqcjahLItcU99YcgHzIPNMx5/Y
+fJ37YNCQ5yu8c8i9EsVwTJO+F5AhGzlTdUpAAt2Cp5Ba4+rv6CFq+pE58xGU4DbE
+DaNQv2E=
+=LygG
 -----END PGP SIGNATURE-----
