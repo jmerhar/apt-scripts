@@ -4,41 +4,41 @@ Hash: SHA512
 Architectures: all
 Codename: stable
 Components: main
-Date: Fri, 21 Aug 2026 11:41:07 +0000
+Date: Sat, 22 Aug 2026 13:19:41 +0000
 Description: APT repository for personal shell scripts
 Label: jmerhar-scripts
 Origin: jmerhar
 Suite: stable
 MD5Sum:
- 4237b945b36cc6975b2c52f46126bb7f              199 Release
+ e9aa6360ceae3d6c04d15ebda65ff713              199 Release
  cd3fe965ffd973d5631e83ba29609508            62179 main/binary-all/Packages
- 5314455573aca3b6b8382ddc22fb95ff            18435 main/binary-all/Packages.gz
+ bb1a59796bcb87ad1436193099b1d8af            18435 main/binary-all/Packages.gz
 SHA1:
- 89c428348e457776c96af15f2c5049adb0759d64              199 Release
+ f483919f886920120a1811e02ab45b7458ecb787              199 Release
  a5e14b1936e87f17c8d568ac2c5c5adcb906f03d            62179 main/binary-all/Packages
- f1b734607f49530aaad3e19a68f17c4359e9ac4b            18435 main/binary-all/Packages.gz
+ e46859962df34a3980ddda22345796a8da62bc90            18435 main/binary-all/Packages.gz
 SHA256:
- a6a4007431f8ba6333be1ac9ed70e07a2e3e05d3a199a98a94039a8be1727cc4              199 Release
+ 6e0093c4c9e366d11343b56075d5ed9753b561aeca585d21cc990760ff2db1d6              199 Release
  474b9356ca1992c6d6518262ae2227f435c51790623fe93b41dc891d33636553            62179 main/binary-all/Packages
- a3d9b0b1949d7f631622ec9703ec65b7a4828e086553e675aa1a1de7014994fe            18435 main/binary-all/Packages.gz
+ 77867453830d0387538d6e2ccacea13094f7b81ccc8ee3a272c4f6a20e17573d            18435 main/binary-all/Packages.gz
 SHA512:
- 11254f2b22ecaa9254157b95b21ef43b7f7238eb074c59ec2054c57eb654ad7c74741c954e2b4bf0b8224b72d4c4b738d84a319e8b21c5f6c2a971d1d99f155e              199 Release
+ 29dceed8f0681dfc0629bc4573cf31f29bce2cda9fed3322fbb19c052f824964a29c4993c4826ec68304c54133ff55f728b2745be43e4e2f6fa3dce4b99d69bc              199 Release
  2d679a392dda733b0b8f245ef13fa81e75b35ebc45e06f1486eaf4c4e2977216d5f12b0db586e91fde2e87e1147d43cdc2dab8adcac526b7231347af1f15dc04            62179 main/binary-all/Packages
- 78fedb65f934e260387f3c4deb50d040421128174f1b38a22c325c5305db80e5dedf548029dc7d9d090dfe998a42cded1f9b5928538106e8fac8133e60111086            18435 main/binary-all/Packages.gz
+ bbd4b1dd1f8000408a1394926c8c624b02e704f522641a283849dd46837b6dbaf41c2b21a77c6c0ab455640a3831eca69f9c4e6d979c6cf24647039f013a931e            18435 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEE6UldwOuRSMVtYnk7jfkecH7h6qkFAmqIOVMOHGRldkBtZXJo
-YXIuc2kACgkQjfkecH7h6qnrKBAAj30LKs++pGfYaaWOaN2UgsnwDL5+YaDIMylK
-A63y7ogQgazNHZEZ1TQdVphfmbhtRWzwWwwz/k/LDYNf7ydaQBhVEzVZfHQyPgwe
-c3ZlYfeM2HDbJwsYT5575YMGy2+C5cdYjzrvL1DiVHoge57ZxVgyclHQ0a4YMiTB
-WRZekwM0zqlEjD0xPrAg5asqub6WgQcQbSU/oNU4ATbmJ6pOP6bOZ/63z8BP0NjI
-XjTqOspDBMDBI+1q0QfDx3OAmJrOx5kEmoG4F7t10IFyxCAhHEs0Z9iEdc6IdfWI
-I7q99aKbkR8X1B2C+XD3EUS0AKnku51CjXKOGxsboE1/QObHPhBEYS9u+6V1XHhK
-ZBlgq07TCV1vIJEksEWRk5cMhr+5+CtKzYzDYflThMnKpdNTZce+3Wm8mXlfKeXW
-VFIzQeTsNabpi2jMCg3JcY9xeTjefLnEwJh9pvP2drg4S3e5nqydZN4J2GWLt9v0
-7J3u7DC36vwc2unO1nOl2d9wDitN5UvhN6L02RE3CTKUMZQeD3ShIU40f69BKRGm
-+IhBDghVH72jsi655Loou32Ery+mOn7rK/JAdbvqcjahLItcU99YcgHzIPNMx5/Y
-fJ37YNCQ5yu8c8i9EsVwTJO+F5AhGzlTdUpAAt2Cp5Ba4+rv6CFq+pE58xGU4DbE
-DaNQv2E=
-=LygG
+iQJCBAEBCgAsFiEE6UldwOuRSMVtYnk7jfkecH7h6qkFAmqJoe0OHGRldkBtZXJo
+YXIuc2kACgkQjfkecH7h6qkgnw//cxuIhx4PtGPUP8ACceiabsE59NjexW6IXcuy
+YRkDmZlznOp6S9lrDx6eEDc50AaxQl6Prf3xbw5oA5l6hSOoHsc/+Wg5Lds36ndk
+A22kswBksGDaUZD6u5eU5+CwdRLpfoNi5B97M3Fc1tcj3ati+JMfo9xMT2HB52XP
+z+uDCRVJGUPZm5PkktNzKvaw7/k3e1Rh0lDcgQqj+8FAWDbrUnHq9xX4Uw/Q1DxT
++b1mgqclKd/8QQi08eFUmehdQBgkk8CPHxbFQMUlyyEnoKmeD39YvI9VqEJDmfL7
+er6sl8Jlk9KC0RhFPJZ08vS4Trfr1I2GFbe/tjRpdg/2nw6vklmqVvsSu9PrSOkb
+ddoUkLNcynWDAT9VlFk8QQEfXrctdDjOgbaC/KMqxHWhi1ktsbVe4732zz/BOgvk
+WzNWxncnBBz1BpzqCDTPXHDWEoYxMRrq+HKoZkzywLieGsJmBfgB27ZHVIRqhjby
++z174psw8MB7KWjOol/PGaiiUafhlZ7rhAM6z16vIdcv+knuEVf1GCOJCXeNs8Xf
++AdM8BbstaSYt0ULPrzlJe+n4nS/9Eo4D9NluYG98SoVwAGX7Zmh5ng5vySF34K7
+HUwB3T2FG+p+CgB9Jkb5gp5QvbUNK6Ernw8NIUDjC7OnhOdzX+iXHKWU7IIJ2s37
+5YUmRl0=
+=m73S
 -----END PGP SIGNATURE-----
