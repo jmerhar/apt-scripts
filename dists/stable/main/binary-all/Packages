@@ -154,6 +154,22 @@ Description: Aggregates a folder of DMARC RUA reports (.xml.gz/.zip) into one ov
  This package installs the 'dmarc-report' script.
 License: MIT
 
+Package: dovi-active-area
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq, mediainfo, mkvtoolnix
+Filename: pool/main/dovi-active-area_1.0.0_all.deb
+Size: 16104
+MD5sum: ba3c4405fa9f8569fdb2145d0a6cd6ff
+SHA1: e2648dbfcb8e56495e221338e484316c9069e288
+SHA256: e1f77dfbf9b8823123087bab86392966162a651b32e01cf897f38402dd4335ce
+SHA512: 2388dffe9ce77aaf02945fa6a36afaa1f26983898169164108fd8e73e8003cb33443bdfa6d8420841004d9a5c6faf3b102d9227091ac906ffacdb6db5a87f30f
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the Dolby Vision L5 active area of Matroska files, and on request zeroes it by rewriting the RPU in place, so a display stops cropping or letterboxing a picture that already fills its frame. Requires the external tool 'dovi_tool', which Debian has no package for.
+ This package installs the 'dovi-active-area' script.
+License: MIT
+
 Package: link-series
 Architecture: all
 Version: 1.0.0
