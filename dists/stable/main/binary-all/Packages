@@ -154,6 +154,22 @@ Description: Aggregates a folder of DMARC RUA reports (.xml.gz/.zip) into one ov
  This package installs the 'dmarc-report' script.
 License: MIT
 
+Package: link-series
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/link-series_1.0.0_all.deb
+Size: 12636
+MD5sum: 909e4fadb6b70b51667860084b060410
+SHA1: af0dd50d736994321aea33611208a44dd2e72706
+SHA256: 35ac2d8412d3619e9bbeb0bb08521572cf77cd255a0d98362d8e229b67c76e9c
+SHA512: a04591ce5e54ddfb6ca62287265d4e413d647c8fff04c36719bf776260277dfde0847628a6adf12b10d89bc0f48198f766e2c596a8f4c1c23593c92db3d2afe9
+Homepage: https://github.com/jmerhar/scripts
+Description: Links episodes from a download folder into a series' library folder, taking the show and season from the destination directory itself, so manually acquired releases join the library without a second copy of the file.
+ This package installs the 'link-series' script.
+License: MIT
+
 Package: local-backup
 Architecture: all
 Version: 1.0.0
