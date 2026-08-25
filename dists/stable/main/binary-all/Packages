@@ -1209,6 +1209,22 @@ Description: Resynchronizes drifting subtitles to a video's speech using a Whisp
  This package installs the 'subtitle-sync' script.
 License: MIT
 
+Package: transcode-audio
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq
+Filename: pool/main/transcode-audio_1.0.0_all.deb
+Size: 13420
+MD5sum: 3cdf918f80b57726f2814bb6ae985b53
+SHA1: 858560ab48b0bbeea5d796035bde732b99dab668
+SHA256: 8cfea7db6406b63d7e231440d156fb3b5ffe69d5f05a62f0389a599df6154874
+SHA512: cd51f0a9c484a4ada4502edaef678ccfb0dc9e1dcfd303b5acbc02947dd80b2c06d838f1e8d81e5ae173920163b1c9dc597da5647e96ad09edc99965ba6a7358
+Homepage: https://github.com/jmerhar/scripts
+Description: Re-encodes the audio of Matroska files to a codec the playback chain can decode (AC-3 by default, for a receiver that cannot take Dolby Digital Plus), in one ffmpeg pass that copies the video, subtitles and chapters and keeps every audio track with its language and flags.
+ This package installs the 'transcode-audio' script.
+License: MIT
+
 Package: ufw-docker-expose
 Architecture: all
 Version: 1.0.0
