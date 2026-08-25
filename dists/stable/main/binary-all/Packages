@@ -863,6 +863,22 @@ Description: Finds orphaned media files left by *arr hard-linking and interactiv
  This package installs the 'prune-orphaned-torrents' script.
 License: MIT
 
+Package: remove-old-kernels
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: sudo
+Filename: pool/main/remove-old-kernels_1.0.0_all.deb
+Size: 10600
+MD5sum: 5a26ac326916f89278674eed8d6ced0e
+SHA1: e1d91c4ad298fac11ec3a8e5991f18edfec3f7b8
+SHA256: 214159c63436f70cc3a515b681e815361811369e4e636a208725cb0cbad00ddf
+SHA512: 88e6636e0492481ce1816ff8a410256c32a647afd2751e256336274d9dafcfca704ea406ced39553984643add678e164eb5382bba1aca275d27e15887bebaaf3
+Homepage: https://github.com/jmerhar/scripts
+Description: Purges the kernel packages a Debian or Ubuntu system no longer needs, keeping the running kernel even when it is not the newest installed, and naming every package it removes rather than letting apt decide what else is unneeded.
+ This package installs the 'remove-old-kernels' script.
+License: MIT
+
 Package: remove-sidecars
 Architecture: all
 Version: 1.3.0
