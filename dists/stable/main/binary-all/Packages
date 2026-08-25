@@ -1,3 +1,19 @@
+Package: build-ffmpeg-nonfree
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: git
+Filename: pool/main/build-ffmpeg-nonfree_1.0.0_all.deb
+Size: 12794
+MD5sum: c2bd6419b03bc6a46b34e888943e534e
+SHA1: 124e1955c9ef1f8281309273d14747ced05d0194
+SHA256: 86e0aecaf490dcfbc54e6d7344b099a22d7f6af72642eaf52a527557801d3a5d
+SHA512: c27662a69d4220f1356d1c19529aa2e7b17b35fcdae9a7d28fb12a76683118631acfa197217d61189e8071cef786f90a7c9fa8f48e3037f8d432d87e4e44a2fc
+Homepage: https://github.com/jmerhar/scripts
+Description: Builds a lean ffmpeg and ffprobe with the nonfree libfdk-aac encoder in a throwaway container matching the host's release, from each component's latest stable tag or from pinned ones, and installs them where they shadow the distribution's copy.
+ This package installs the 'build-ffmpeg-nonfree' script.
+License: MIT
+
 Package: compare-dirs
 Architecture: all
 Version: 1.0.0
