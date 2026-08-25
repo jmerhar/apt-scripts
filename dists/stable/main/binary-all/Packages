@@ -1065,6 +1065,22 @@ Description: A script to find and delete "sidecar" files when a corresponding RA
  This package installs the 'remove-sidecars' script.
 License: MIT
 
+Package: smart-check
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: smartmontools, jq
+Filename: pool/main/smart-check_1.0.0_all.deb
+Size: 12800
+MD5sum: 1b63dd2ec2765af55ced16754c5f2e4b
+SHA1: 53b85cfd540a16d90d025e54f23d10c367fa42a3
+SHA256: 8d3b7c1b109dc6cbf621f6e2a5ba7923cd9348ccd19eb8d9272647ba7156b6b9
+SHA512: 5a9c2cd4bd5ff8cc640c003a71fa6c9970ec6ea1d567ec34c5fa7020dc49017942cc5026957e853d6a4a9aeac5e8c67c203764ee8b32a50bf7d5698ff44d18d0
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the SMART findings that actually predict a disk failing — reallocated and pending sectors, any attribute past the drive's own failure threshold, solid-state wear, temperature and interface errors — with an exit status a cron job or monitor can act on.
+ This package installs the 'smart-check' script.
+License: MIT
+
 Package: subtitle-report
 Architecture: all
 Version: 1.0.0
