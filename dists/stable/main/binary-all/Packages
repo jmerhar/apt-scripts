@@ -469,6 +469,22 @@ Description: Toggles temporary passwordless sudo for a user, with an in-session 
  This package installs the 'nopasswd-sudo' script.
 License: MIT
 
+Package: normalize-release-names
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/normalize-release-names_1.0.0_all.deb
+Size: 11064
+MD5sum: c11e2a385c4d1c4270334086def51f90
+SHA1: 4ed46aa81d9c2fd51d6761e4e62192e405fea10d
+SHA256: feb8a27b53d9d4c35e96d2406ce31505b2f8aaeed1034bffbd3765cd3d4a3ba8
+SHA512: 1dea6d55cd78b21d443f9585387ad75038b166f667a52b3b418ba8a51d6da9e8d062ba4a75336732c5afd972e2ea369fdc1d0e815d7ec372941e5b028fa833e7
+Homepage: https://github.com/jmerhar/scripts
+Description: Brings episode filenames to one spelling — dots for separators, lower case, and the season and episode as S01E02 — so that sidecar pairing, library linking and episode parsers all match the same names. Renames subtitles alongside their video and refuses a rename whose destination is taken.
+ This package installs the 'normalize-release-names' script.
+License: MIT
+
 Package: photo-backup
 Architecture: all
 Version: 1.2.0
