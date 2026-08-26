@@ -405,6 +405,22 @@ Description: Points a MyAnonamouse dynamic-seedbox session at the machine's curr
  This package installs the 'mam-session' script.
 License: MIT
 
+Package: mam-session
+Architecture: all
+Version: 1.0.1
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), curl, jq
+Filename: pool/main/mam-session_1.0.1_all.deb
+Size: 12544
+MD5sum: c25b932e7f4898f366883425edc69f1c
+SHA1: 623ef0a136bcabc2a8c71489669814c71a1cc480
+SHA256: 127692054c03a683c7ff6f4046237c99766dd01a62eb6ced263a9e7c37a2cc50
+SHA512: 3c1bc5b5d80deea0becacf9eb691b8fa4c5807b30ee50f17838879e542939a42e73059a25430fb8a07cd2638976c3a22841c6a00d38c36a4508e71ab54c7121c
+Homepage: https://github.com/jmerhar/scripts
+Description: Points a MyAnonamouse dynamic-seedbox session at the machine's current address when it changes, calling the tracker sparingly, keeping the session out of the process list, and turning each refusal into the tracker setting that has to change.
+ This package installs the 'mam-session' script.
+License: MIT
+
 Package: mdcheck-progress
 Architecture: all
 Version: 1.0.0
