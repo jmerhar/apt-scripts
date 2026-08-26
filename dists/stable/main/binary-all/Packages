@@ -389,6 +389,22 @@ Description: A generic script to create and automatically prune rsync-based syst
  This package installs the 'local-backup' script.
 License: MIT
 
+Package: mam-session
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), curl, jq
+Filename: pool/main/mam-session_1.0.0_all.deb
+Size: 12360
+MD5sum: acda5184bc726731b2489fa4756d7ce6
+SHA1: 0183ea315c830471e8e493f957998d3a7a26fa3d
+SHA256: d43d059c58442348c76a9c1c229a1a408da822d6fb50dd1d1de050a2be7c8d5d
+SHA512: d8fe1220ff1d0855c865173432bd61c19d0a6bc892acc43f2410caf235782c3c7833b9d9cac51324ca503c348a4e0579acf389d8f223f499381705dc18ad52c8
+Homepage: https://github.com/jmerhar/scripts
+Description: Points a MyAnonamouse dynamic-seedbox session at the machine's current address when it changes, calling the tracker sparingly, keeping the session out of the process list, and turning each refusal into the tracker setting that has to change.
+ This package installs the 'mam-session' script.
+License: MIT
+
 Package: mdcheck-progress
 Architecture: all
 Version: 1.0.0
