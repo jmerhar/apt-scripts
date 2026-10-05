@@ -501,6 +501,22 @@ Description: Reports the progress of an MD RAID check (Debian's monthly mdcheck 
  This package installs the 'mdcheck-progress' script.
 License: MIT
 
+Package: modernize-video
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq
+Filename: pool/main/modernize-video_1.0.0_all.deb
+Size: 19402
+MD5sum: a8db83c11bbf99abeff3e306c628eb4f
+SHA1: 59f5b44e70f502bfb59478c2d142d448af024330
+SHA256: 31ec6e5d0e7eaefd25af50860164abdc60d1938395f6d770a00329bfb759bb6c
+SHA512: 24eb792f10a89c00553b20d254213c32cc9cd88f233d3730630d6ef61e79786b99b9beecaabfe6765839cb35a39369fe52a1769a2bc488035774dd451a5caece
+Homepage: https://github.com/jmerhar/scripts
+Description: Converts video from old cameras (MJPEG, Indeo, MPEG-1, H.263 in AVI, MPG, 3GP or MOV) to H.264/AAC MP4, carrying the capture date across into the fields a photo service reads so the result lands in the right place in a timeline rather than at the moment it was uploaded. Decides what each file needs from the codecs it holds: already-modern files are reported and left alone, and streams that are already fine are rewrapped without re-encoding.
+ This package installs the 'modernize-video' script.
+License: MIT
+
 Package: nopasswd-sudo
 Architecture: all
 Version: 1.0.0
