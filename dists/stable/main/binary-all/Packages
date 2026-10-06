@@ -234,6 +234,22 @@ Description: Links episodes from a download folder into a series' library folder
  This package installs the 'link-series' script.
 License: MIT
 
+Package: link-series
+Architecture: all
+Version: 2.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/link-series_2.0.0_all.deb
+Size: 12754
+MD5sum: 426672592820e00381c461c90adac095
+SHA1: fef0f291cd5635d368ca868c869e9b8ffa506807
+SHA256: 084e07d19fec8ede5afcb49cdda6b330076f71732349d08a0c53077afd857b34
+SHA512: af853e5f0ef49c4bcc04fc36da05a962c1a5bf9aea9fe5cfc1c384555b5fcdac1b5e982cf9d4bc62dde99858474aac7ebfe4ead019efbdbc63abf9918281bb7c
+Homepage: https://github.com/jmerhar/scripts
+Description: Links episodes from a download folder into a series' library folder, taking the show and season from the destination directory itself, so manually acquired releases join the library without a second copy of the file.
+ This package installs the 'link-series' script.
+License: MIT
+
 Package: local-backup
 Architecture: all
 Version: 1.0.0
