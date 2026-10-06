@@ -202,6 +202,22 @@ Description: Reports the Dolby Vision L5 active area of Matroska files, and on r
  This package installs the 'dovi-active-area' script.
 License: MIT
 
+Package: dovi-active-area
+Architecture: all
+Version: 2.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq, mediainfo, mkvtoolnix
+Filename: pool/main/dovi-active-area_2.0.0_all.deb
+Size: 16502
+MD5sum: c89f435d4fac11641ef400f257fbddb7
+SHA1: 2b33077958475e476fc587d335ac9b3bbedfaeb3
+SHA256: 18c1e06a91f3004c2000a0d036dcec07155be3d0a33256a6c27193a25e9711aa
+SHA512: d7851eee318a820623b5beed83e8bec30d412b9014adf61411f531b98a9fc2d3aeadfcd64a47af3ea9fff7f99a0b824b33bc8db6223e41a8d339a43808974200
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the Dolby Vision L5 active area of Matroska files, and on request zeroes it by rewriting the RPU in place, so a display stops cropping or letterboxing a picture that already fills its frame. Requires the external tool 'dovi_tool', which Debian has no package for.
+ This package installs the 'dovi-active-area' script.
+License: MIT
+
 Package: link-series
 Architecture: all
 Version: 1.0.0
