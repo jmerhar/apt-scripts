@@ -597,6 +597,22 @@ Description: Brings episode filenames to one spelling — dots for separators, l
  This package installs the 'normalize-release-names' script.
 License: MIT
 
+Package: normalize-release-names
+Architecture: all
+Version: 2.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/normalize-release-names_2.0.0_all.deb
+Size: 11286
+MD5sum: a8d4e398644204a73cb2a23fa9146bae
+SHA1: 8c8f76a15adcea09e59c714e772f7738d28e3990
+SHA256: a6e01fb52b35e8f3b6395dc3950a1191ecff7ff5c5b11c216b70dc3ad7610ef6
+SHA512: b736907890901b82bd44bcf1cf5d52bf16a551cbb63ee24433d8993617ce0792e6046ecfcc10e9ddc014e6593de65e1a6d5e6db468390c29ca171586a9cb1ec3
+Homepage: https://github.com/jmerhar/scripts
+Description: Brings episode filenames to one spelling — dots for separators, lower case, and the season and episode as S01E02 — so that sidecar pairing, library linking and episode parsers all match the same names. Renames subtitles alongside their video and refuses a rename whose destination is taken.
+ This package installs the 'normalize-release-names' script.
+License: MIT
+
 Package: photo-backup
 Architecture: all
 Version: 1.2.0
