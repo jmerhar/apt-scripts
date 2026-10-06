@@ -517,6 +517,22 @@ Description: Converts video from old cameras (MJPEG, Indeo, MPEG-1, H.263 in AVI
  This package installs the 'modernize-video' script.
 License: MIT
 
+Package: modernize-video
+Architecture: all
+Version: 2.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq
+Filename: pool/main/modernize-video_2.0.0_all.deb
+Size: 20068
+MD5sum: 9e7c5681f5228a2edb5358f0cf2ada7d
+SHA1: 71eb6d7288be29ff018dd23f34b1eb58cda5053c
+SHA256: ccbe924476a4569351b3e22b08b6a991de4f3b8ececb028cf907c1e47a7f8215
+SHA512: ad84caf9d509e7a7d353fd9b105001f039994a490b8568a55a29ac8d1e199dc38604b41fd05bda20caa6906d119c9d57e249f5bd018626f29f2f68882c35d2b9
+Homepage: https://github.com/jmerhar/scripts
+Description: Converts video from old cameras (MJPEG, Indeo, MPEG-1, H.263 in AVI, MPG, 3GP or MOV) to H.264/AAC MP4, carrying the capture date across into the fields a photo service reads so the result lands in the right place in a timeline rather than at the moment it was uploaded. Decides what each file needs from the codecs it holds: already-modern files are reported and left alone, and streams that are already fine are rewrapped without re-encoding.
+ This package installs the 'modernize-video' script.
+License: MIT
+
 Package: nopasswd-sudo
 Architecture: all
 Version: 1.0.0
