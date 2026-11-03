@@ -1103,6 +1103,22 @@ Description: Finds orphaned media files left by *arr hard-linking and interactiv
  This package installs the 'prune-orphaned-torrents' script.
 License: MIT
 
+Package: prune-orphaned-torrents
+Architecture: all
+Version: 1.3.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), curl, jq
+Filename: pool/main/prune-orphaned-torrents_1.3.0_all.deb
+Size: 18232
+MD5sum: e6f2a052b2a799bcfd68b301522f3665
+SHA1: 54dcf9a6b94c5d3745a21cf3c8b23f3aca7d37b8
+SHA256: f721786ba9a56e14cf1115a4cbe0f3c3c6726453f72846ce35f9f3b0e66446d8
+SHA512: b631722c7e97af33e2c88e323ac7b83b75aa0f37a09f6049d5849672cfd698e13a9fc02230f49f3c377f785d56edda864d8736141633f3a4a3fd48642b6c0f1b
+Homepage: https://github.com/jmerhar/scripts
+Description: Finds orphaned media files left by *arr hard-linking and interactively removes the corresponding torrents from Deluge.
+ This package installs the 'prune-orphaned-torrents' script.
+License: MIT
+
 Package: remove-old-kernels
 Architecture: all
 Version: 1.0.0
