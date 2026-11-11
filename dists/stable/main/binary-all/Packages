@@ -20,11 +20,11 @@ Version: 1.1.0
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: git
 Filename: pool/main/build-ffmpeg-nonfree_1.1.0_all.deb
-Size: 13156
-MD5sum: 71c22a412c0c55f3942ea593f46e9582
-SHA1: 29a6da4a5c23d60108480fe7541cd1d89ba5f327
-SHA256: ccc01e32df6ca096d55fe86fb0dd981c61d05c5b6a6e8f602701152180c8e381
-SHA512: 1e2ace99eca2168871a2bbd5b7d77751daf9dff6b712ee9ae5cbe0f5f57ea52267e6403569c7d9c9a9b78c1e4e64907218b6f711f629b435a471536d456565d8
+Size: 13154
+MD5sum: 769607ce73ec81d0d60424d411a83749
+SHA1: 70e876605b4d2f55dd6df5c6441f2cc85ebd654e
+SHA256: ecaaf94c6fdb70b6c152a048886fbbf56d8eb7e53755954262db1cdb33970f84
+SHA512: d5c383c91c895394672da4cff7580fa0eba218976a7bc355113bb6742cb84dff7a4fb884a3075908708d537dacd8047ed9f5cfbffbae3dfeb6e66c5955073307
 Homepage: https://github.com/jmerhar/scripts
 Description: Builds a lean ffmpeg and ffprobe with the nonfree libfdk-aac encoder in a throwaway container matching the host's release, from each component's latest stable tag or from pinned ones, and installs them where they shadow the distribution's copy.
  This package installs the 'build-ffmpeg-nonfree' script.
@@ -122,6 +122,22 @@ Description: Recursively compares two directories and reports differences in exi
  This package installs the 'compare-dirs' script.
 License: MIT
 
+Package: compare-dirs
+Architecture: all
+Version: 1.3.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/compare-dirs_1.3.0_all.deb
+Size: 10076
+MD5sum: ca870782d7d650b6c2f91982c5fef90c
+SHA1: c353207e11f84094c718095c1fefe8b67fd92c7b
+SHA256: 4c3f8d280b1ceac073ab615533c8186c6e5d1a779065ce77f06895901e199a18
+SHA512: b45b16e45a73edd09e5f0b505da16230ffdb67a2ff538f1ebb9e87d97238e71b7166e61e1124cc57e1e2833cce30fa6457bcf62eaee5026b915b5ac9044bf42d
+Homepage: https://github.com/jmerhar/scripts
+Description: Recursively compares two directories and reports differences in existence, size, timestamps, and checksums.
+ This package installs the 'compare-dirs' script.
+License: MIT
+
 Package: dmarc-report
 Architecture: all
 Version: 1.0.0
@@ -197,6 +213,22 @@ MD5sum: 142c13f02a23429710b67722d82da461
 SHA1: ccfddc9a2cd5ce16e52a55aee93c262bfe30b2f1
 SHA256: 615700f45b8c577c2259ee0b5efaa50c7a2ab456f5dfe0afbbbe1c278cc7e482
 SHA512: e68b9e3f17becd3a5f159bf4b913827d6a480334192d97cfe2047511667cdbcdf290b86f452a8bad3a7b9f1d08637243d3e2e26e996b10fd13f9f91beb6da1c8
+Homepage: https://github.com/jmerhar/scripts
+Description: Aggregates a folder of DMARC RUA reports (.xml.gz/.zip) into one overall report, tracking policy changes over time and flagging unenforced domains, unaligned senders, DNS/DKIM errors, and spoofing (grouped into subnets with per-range country lookup, or totalled by country).
+ This package installs the 'dmarc-report' script.
+License: MIT
+
+Package: dmarc-report
+Architecture: all
+Version: 1.3.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), curl, jq, libxml2-utils, unzip
+Filename: pool/main/dmarc-report_1.3.0_all.deb
+Size: 17998
+MD5sum: a5dcf7adc71cdbf89bb3ee710b847868
+SHA1: 022b9ac9542931f7a2ead2aa1892ea217a6206e9
+SHA256: e920946f3bce65ab89afd1fc97b4fd7368146202ad75eb4a2d4f23e4dedb8d20
+SHA512: 8c886cbc1ff42d9681b5d5549aed690eaba3d37a55a65b6e7aed0922e6cc118082ce358abab8ab2b262eae86a2514fec3c97a85d6934cebe3506d53609feeb51
 Homepage: https://github.com/jmerhar/scripts
 Description: Aggregates a folder of DMARC RUA reports (.xml.gz/.zip) into one overall report, tracking policy changes over time and flagging unenforced domains, unaligned senders, DNS/DKIM errors, and spoofing (grouped into subnets with per-range country lookup, or totalled by country).
  This package installs the 'dmarc-report' script.
@@ -282,6 +314,22 @@ Description: Runs a command that restarts the Docker daemon, such as a package u
  This package installs the 'docker-live-upgrade' script.
 License: MIT
 
+Package: docker-live-upgrade
+Architecture: all
+Version: 1.4.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.4), jq
+Filename: pool/main/docker-live-upgrade_1.4.0_all.deb
+Size: 18792
+MD5sum: f6439c80413154ac010b5076b8bb6e91
+SHA1: 5d96cc5dad5b26f163a6a73f5cd2841e3905283f
+SHA256: adfe12d41db7ecc7b8eb4a335655ce74948e7f38d4855f44a8408fe3764f44c2
+SHA512: 1f55a79b7d55856f0875a85338515e297f1ef6fbce1f4743d74aeed52cf9ebce5d42ddd013f8a57851ebcac235be24f905c4d1b6eeff1110cdbb61e047707d8b
+Homepage: https://github.com/jmerhar/scripts
+Description: Runs a command that restarts the Docker daemon, such as a package upgrade, and repairs whatever live-restore did not carry across it: orphaned container processes are stopped first, so no container ever runs twice on one data directory, then affected containers are started in tier order a batch at a time, waiting for their healthchecks, and never before their Compose dependencies; containers tied to a restarted one by `restart: true` or a shared network namespace, or bind-mounting a socket the command replaced, are restarted too. Live-restore is turned on for the length of the run when it is off.
+ This package installs the 'docker-live-upgrade' script.
+License: MIT
+
 Package: dovi-active-area
 Architecture: all
 Version: 1.0.0
@@ -309,6 +357,22 @@ MD5sum: c89f435d4fac11641ef400f257fbddb7
 SHA1: 2b33077958475e476fc587d335ac9b3bbedfaeb3
 SHA256: 18c1e06a91f3004c2000a0d036dcec07155be3d0a33256a6c27193a25e9711aa
 SHA512: d7851eee318a820623b5beed83e8bec30d412b9014adf61411f531b98a9fc2d3aeadfcd64a47af3ea9fff7f99a0b824b33bc8db6223e41a8d339a43808974200
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the Dolby Vision L5 active area of Matroska files, and on request zeroes it by rewriting the RPU in place, so a display stops cropping or letterboxing a picture that already fills its frame. Requires the external tool 'dovi_tool', which Debian has no package for.
+ This package installs the 'dovi-active-area' script.
+License: MIT
+
+Package: dovi-active-area
+Architecture: all
+Version: 2.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq, mediainfo, mkvtoolnix
+Filename: pool/main/dovi-active-area_2.1.0_all.deb
+Size: 16798
+MD5sum: d926c9b3f60cbcdfb7b5fc3e9f441977
+SHA1: 6b52814e22c23e3e7a8e3a51278d6f93ce8693fa
+SHA256: 52d4edc0b1a7e6bb1dcd35d6371c2b851cf342d2c7fe11bc18f58403cdb94151
+SHA512: a9d7579c0961ab1bda698183d6839826a8ac9bd9a92f0ee114e5ddcdfaa6fb11275027810feeb8d8a7a3cb28c5ced4d749fad64adc02566c8a734ae6832f00ea
 Homepage: https://github.com/jmerhar/scripts
 Description: Reports the Dolby Vision L5 active area of Matroska files, and on request zeroes it by rewriting the RPU in place, so a display stops cropping or letterboxing a picture that already fills its frame. Requires the external tool 'dovi_tool', which Debian has no package for.
  This package installs the 'dovi-active-area' script.
@@ -357,6 +421,22 @@ MD5sum: 5a37e0b10bf79d65eca7d57842459b6d
 SHA1: 761739041fe2ba906c3024c39d0f7faada26f31e
 SHA256: b3a57b527a1eff349bcd1167632327f9e4891e76ae9976960215414912af697a
 SHA512: 76a9cafd1325d6da4c5360817e18a8c211612d63d583860d84ff5d104c74bdf3ff1640487c31854f86fa02398f6de8d85af77ed86bfb9bcd565d98d7569eb6b3
+Homepage: https://github.com/jmerhar/scripts
+Description: Links episodes from a download folder into a series' library folder, taking the show and season from the destination directory itself, so manually acquired releases join the library without a second copy of the file.
+ This package installs the 'link-series' script.
+License: MIT
+
+Package: link-series
+Architecture: all
+Version: 2.2.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/link-series_2.2.0_all.deb
+Size: 14778
+MD5sum: 53e2ca12224d384ce96c01d842e217dd
+SHA1: a519ad1f002bd49dd9a6f849a5f08f490cefeda0
+SHA256: ce38dc5a46985cde3272426e8b1dfbecfcaa3c7328b118bef39d7bc8612fe505
+SHA512: e939a3a67b352b7bfe7916f3c0f9809024c7aab6f930d5dc13e07a32f96ab029648353e9f532714a5c2e17fd259d43c436ce0f31f50b5bfb8d732b0cd366e781
 Homepage: https://github.com/jmerhar/scripts
 Description: Links episodes from a download folder into a series' library folder, taking the show and season from the destination directory itself, so manually acquired releases join the library without a second copy of the file.
  This package installs the 'link-series' script.
@@ -555,11 +635,11 @@ Version: 1.5.0
 Maintainer: Jure Merhar <dev@merhar.si>
 Depends: bash (>= 4.0), rsync
 Filename: pool/main/local-backup_1.5.0_all.deb
-Size: 9844
-MD5sum: 5a8db1e8e161f871a4ac38a966db6131
-SHA1: 653b9cb26fb1c8d44da90cee01233a1fa48e17ca
-SHA256: cbf97cd077c525dc69ac55f84c19f65ff2ce802c602f37df9154cf07efa58791
-SHA512: eb3a1ef6cb5914944c30a0f6a51a8698f45ab111c58ae26f0adc42e33c4190c5aa431f5f17b2c0693caf97719b59cefa398ec258e5297773d1d45fff879a3f75
+Size: 9842
+MD5sum: bc2d015bbdffaf1ca959dc7bf09d02d0
+SHA1: 17a3436bbd54091d1e0e759f2f86ff991a11af24
+SHA256: e698345423bd6e6bba059061fc887a05908c88aaa98fe2968b5380fb5a8e4ada
+SHA512: 66c17577e3bbbfe376d6e49964286d629031f1a80cecdcc7c052bdda898aa62a223b0444bc2e76a513ad7a45dcf87d6ae948e0790529946e9e0b00e13a71b46f
 Homepage: https://github.com/jmerhar/scripts
 Description: A generic script to create and automatically prune rsync-based system backups.
  This package installs the 'local-backup' script.
@@ -613,6 +693,22 @@ Description: Points a MyAnonamouse dynamic-seedbox session at the machine's curr
  This package installs the 'mam-session' script.
 License: MIT
 
+Package: mam-session
+Architecture: all
+Version: 1.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), curl, jq
+Filename: pool/main/mam-session_1.1.0_all.deb
+Size: 12890
+MD5sum: 1f0737c29e6463b5fe932f62fa902bd3
+SHA1: 61372b5bd2c41df8c70ca8a09416c59525a71b57
+SHA256: d49f2456fb1c30803279adba8c8aa8daa11b88840dd76f74f131383d28d059a4
+SHA512: b4b119c5e9b4b05361d8eb89d21b54c51b0df2c9de3a4456e12864e6defbbd4a7fec0d41aeadb93f8fbadf88e0acc5c5e9c7da1101f5f5a1d6e948af5ebfebac
+Homepage: https://github.com/jmerhar/scripts
+Description: Points a MyAnonamouse dynamic-seedbox session at the machine's current address when it changes, calling the tracker sparingly, keeping the session out of the process list, and turning each refusal into the tracker setting that has to change.
+ This package installs the 'mam-session' script.
+License: MIT
+
 Package: mdcheck-progress
 Architecture: all
 Version: 1.0.0
@@ -661,6 +757,22 @@ Description: Reports the progress of an MD RAID check (Debian's monthly mdcheck 
  This package installs the 'mdcheck-progress' script.
 License: MIT
 
+Package: mdcheck-progress
+Architecture: all
+Version: 1.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), mdadm
+Filename: pool/main/mdcheck-progress_1.1.0_all.deb
+Size: 11348
+MD5sum: 583ee2176d87cfc632c9647eed4c4e73
+SHA1: 89a7a138770ef62a32e7172809e5a96b45e771c1
+SHA256: 6e991368487d7d4a19939f131da50b8997c247f910d58f88d2d7be9fdf351d54
+SHA512: 0e291bedeee48c7746c9cfa2d5bd34b57ce8d0ddcd51d7f048d2dbb017ed9eaffa0eba5c5b6bf639d375fde205ddca0aee2a58c40f81bc1efb727c51cc821dbf
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the progress of an MD RAID check (Debian's monthly mdcheck scrub), including while it is paused between nightly windows, with a schedule-aware estimate of when it will finish.
+ This package installs the 'mdcheck-progress' script.
+License: MIT
+
 Package: modernize-video
 Architecture: all
 Version: 1.0.0
@@ -688,6 +800,22 @@ MD5sum: 9e7c5681f5228a2edb5358f0cf2ada7d
 SHA1: 71eb6d7288be29ff018dd23f34b1eb58cda5053c
 SHA256: ccbe924476a4569351b3e22b08b6a991de4f3b8ececb028cf907c1e47a7f8215
 SHA512: ad84caf9d509e7a7d353fd9b105001f039994a490b8568a55a29ac8d1e199dc38604b41fd05bda20caa6906d119c9d57e249f5bd018626f29f2f68882c35d2b9
+Homepage: https://github.com/jmerhar/scripts
+Description: Converts video from old cameras (MJPEG, Indeo, MPEG-1, H.263 in AVI, MPG, 3GP or MOV) to H.264/AAC MP4, carrying the capture date across into the fields a photo service reads so the result lands in the right place in a timeline rather than at the moment it was uploaded. Decides what each file needs from the codecs it holds: already-modern files are reported and left alone, and streams that are already fine are rewrapped without re-encoding.
+ This package installs the 'modernize-video' script.
+License: MIT
+
+Package: modernize-video
+Architecture: all
+Version: 2.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq
+Filename: pool/main/modernize-video_2.1.0_all.deb
+Size: 20374
+MD5sum: b1c2ba1606f6fa7dc1578f07ec69eda4
+SHA1: 2a8838df1be11a0ea43fdf1d308bc9d620d4247b
+SHA256: 26745d0d1ae769dd834165122472ab5988a596ca658d04c11c79580b401a363d
+SHA512: 14b905299f4c592117c990476ecfb847e57cbc61c751767a1dc7caecd7ea0be9594f56faa9348562cff43ee667a61d8236b0ba429e03c8f74411f5f7de84c359
 Homepage: https://github.com/jmerhar/scripts
 Description: Converts video from old cameras (MJPEG, Indeo, MPEG-1, H.263 in AVI, MPG, 3GP or MOV) to H.264/AAC MP4, carrying the capture date across into the fields a photo service reads so the result lands in the right place in a timeline rather than at the moment it was uploaded. Decides what each file needs from the codecs it holds: already-modern files are reported and left alone, and streams that are already fine are rewrapped without re-encoding.
  This package installs the 'modernize-video' script.
@@ -741,6 +869,22 @@ Description: Toggles temporary passwordless sudo for a user, with an in-session 
  This package installs the 'nopasswd-sudo' script.
 License: MIT
 
+Package: nopasswd-sudo
+Architecture: all
+Version: 1.2.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: sudo
+Filename: pool/main/nopasswd-sudo_1.2.0_all.deb
+Size: 6322
+MD5sum: 72528687a0f1243fb02a34d736efa6d8
+SHA1: 9d9ebb73b57693726579d32dfe26ce0252d0e3a5
+SHA256: 1da4b03068173165acde6b25aeed51de09e6d0ddfe0b1107b779862a70168098
+SHA512: b5a61043b9fb20c357d1690e67fab4d0c309fdea450e1d991e363f0f386ddb3c4866140661b4b36398939160e686ac935ab0d94b96c05f110987ecf5a84baaaf
+Homepage: https://github.com/jmerhar/scripts
+Description: Toggles temporary passwordless sudo for a user, with an in-session auto-revoke timer and a boot-time safety net so it never stays enabled by accident.
+ This package installs the 'nopasswd-sudo' script.
+License: MIT
+
 Package: normalize-release-names
 Architecture: all
 Version: 1.0.0
@@ -768,6 +912,22 @@ MD5sum: a8d4e398644204a73cb2a23fa9146bae
 SHA1: 8c8f76a15adcea09e59c714e772f7738d28e3990
 SHA256: a6e01fb52b35e8f3b6395dc3950a1191ecff7ff5c5b11c216b70dc3ad7610ef6
 SHA512: b736907890901b82bd44bcf1cf5d52bf16a551cbb63ee24433d8993617ce0792e6046ecfcc10e9ddc014e6593de65e1a6d5e6db468390c29ca171586a9cb1ec3
+Homepage: https://github.com/jmerhar/scripts
+Description: Brings episode filenames to one spelling — dots for separators, lower case, and the season and episode as S01E02 — so that sidecar pairing, library linking and episode parsers all match the same names. Renames subtitles alongside their video and refuses a rename whose destination is taken.
+ This package installs the 'normalize-release-names' script.
+License: MIT
+
+Package: normalize-release-names
+Architecture: all
+Version: 2.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/normalize-release-names_2.1.0_all.deb
+Size: 11594
+MD5sum: b2d99c314bcf988160603f3b6deec695
+SHA1: 0b5ce621eaf86aeb9d50f59c12be33a587ff3ba3
+SHA256: f8c0dd15318cedc11c7c3fcdbda9500270e4635f288c00738f8426b274ca4e66
+SHA512: 01e28d8f3a5338205355117fa054331a2610cf4cfacd56d60c842c67318b3d14acff20da06665738dfa795bb89623c8c67fade9b7966e43c77881cad398b54e9
 Homepage: https://github.com/jmerhar/scripts
 Description: Brings episode filenames to one spelling — dots for separators, lower case, and the season and episode as S01E02 — so that sidecar pairing, library linking and episode parsers all match the same names. Renames subtitles alongside their video and refuses a rename whose destination is taken.
  This package installs the 'normalize-release-names' script.
@@ -1039,6 +1199,22 @@ Description: A robust script for backing up photo collections from multiple sour
  This package installs the 'photo-backup' script.
 License: MIT
 
+Package: photo-backup
+Architecture: all
+Version: 2.3.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: rsync
+Filename: pool/main/photo-backup_2.3.0_all.deb
+Size: 9388
+MD5sum: 4c323f9f99ae8c365dd58d160631f479
+SHA1: 7ab4db0460cb2ad978ba8f448f4c8d5f336aac46
+SHA256: e3e7a70bbbae40b159f7bcd81bcded45980493a223364cde92ab747446d4b3a3
+SHA512: ad9361fcae69d0311d56ceaa6310b385b5a37880dafe608e282eb30e7a3adba54aa3f8efa82ee0d8008c929f4d1c3951a5e45fbe47f4f1937d136b5ff495ab13
+Homepage: https://github.com/jmerhar/scripts
+Description: A robust script for backing up photo collections from multiple sources to a remote server using rsync.
+ This package installs the 'photo-backup' script.
+License: MIT
+
 Package: prune-orphaned-torrents
 Architecture: all
 Version: 1.0.0
@@ -1167,6 +1343,22 @@ Description: Finds orphaned media files left by *arr hard-linking and interactiv
  This package installs the 'prune-orphaned-torrents' script.
 License: MIT
 
+Package: prune-orphaned-torrents
+Architecture: all
+Version: 1.4.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), curl, jq
+Filename: pool/main/prune-orphaned-torrents_1.4.0_all.deb
+Size: 18412
+MD5sum: acbaa4f004407d95d5773d5cd66d34c2
+SHA1: abeb07aa6022b927310283f5fb094ab3642fb930
+SHA256: 151890897882bd0cddd79322c8262c997470cdfc1024445aaf1095eac289eef1
+SHA512: 650421585320ce16fe1ab2fff89c126ff07bd9cca34796f18e4cca6272afb834ca9a0338a04fe5e2874fd86e3d6989228a7a2fa9419c89661578271e0d5dfa63
+Homepage: https://github.com/jmerhar/scripts
+Description: Finds orphaned media files left by *arr hard-linking and interactively removes the corresponding torrents from Deluge.
+ This package installs the 'prune-orphaned-torrents' script.
+License: MIT
+
 Package: remove-old-kernels
 Architecture: all
 Version: 1.0.0
@@ -1178,6 +1370,22 @@ MD5sum: 5a26ac326916f89278674eed8d6ced0e
 SHA1: e1d91c4ad298fac11ec3a8e5991f18edfec3f7b8
 SHA256: 214159c63436f70cc3a515b681e815361811369e4e636a208725cb0cbad00ddf
 SHA512: 88e6636e0492481ce1816ff8a410256c32a647afd2751e256336274d9dafcfca704ea406ced39553984643add678e164eb5382bba1aca275d27e15887bebaaf3
+Homepage: https://github.com/jmerhar/scripts
+Description: Purges the kernel packages a Debian or Ubuntu system no longer needs, keeping the running kernel even when it is not the newest installed, and naming every package it removes rather than letting apt decide what else is unneeded.
+ This package installs the 'remove-old-kernels' script.
+License: MIT
+
+Package: remove-old-kernels
+Architecture: all
+Version: 1.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: sudo
+Filename: pool/main/remove-old-kernels_1.1.0_all.deb
+Size: 10952
+MD5sum: df527f3bc3aa20143d7c3c4d7ade0acc
+SHA1: dde7e71102485bc29360213750183ae10df04e6b
+SHA256: da2cbc9decf67dbb6dd753848a262ef1b0ad80355251054280c41ffab6d034fc
+SHA512: 45d43a1534bec82865e44bffd02b8f6efbae0ad03bfdd6de6b1644f689093d5cca6d828290ec4b6b015aa83b03b5a4719f74ea4046c95908e2515fccc946d7ba
 Homepage: https://github.com/jmerhar/scripts
 Description: Purges the kernel packages a Debian or Ubuntu system no longer needs, keeping the running kernel even when it is not the newest installed, and naming every package it removes rather than letting apt decide what else is unneeded.
  This package installs the 'remove-old-kernels' script.
@@ -1385,6 +1593,22 @@ Description: A script to find and delete "sidecar" files when a corresponding RA
  This package installs the 'remove-sidecars' script.
 License: MIT
 
+Package: remove-sidecars
+Architecture: all
+Version: 2.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0)
+Filename: pool/main/remove-sidecars_2.1.0_all.deb
+Size: 11372
+MD5sum: 1c05f51a4fbfd9b8680d6a8e56ab04b6
+SHA1: 1dd64372772fbacffc00ee1172fd5b58604f7631
+SHA256: 259a2de784e662167e82dd7b4bbea58b1cf2dedf8a221007a72722d35a8e688f
+SHA512: e524785227bc26343e1e387fbf8fee4ada2f02236ac701a041d559f6f8ceff37f924818b0f9e4e6380e250ef2465fd12675daf3b8006f72b8466419d07ec0c5c
+Homepage: https://github.com/jmerhar/scripts
+Description: A script to find and delete "sidecar" files when a corresponding RAW photo file exists.
+ This package installs the 'remove-sidecars' script.
+License: MIT
+
 Package: smart-check
 Architecture: all
 Version: 1.0.0
@@ -1396,6 +1620,22 @@ MD5sum: 1b63dd2ec2765af55ced16754c5f2e4b
 SHA1: 53b85cfd540a16d90d025e54f23d10c367fa42a3
 SHA256: 8d3b7c1b109dc6cbf621f6e2a5ba7923cd9348ccd19eb8d9272647ba7156b6b9
 SHA512: 5a9c2cd4bd5ff8cc640c003a71fa6c9970ec6ea1d567ec34c5fa7020dc49017942cc5026957e853d6a4a9aeac5e8c67c203764ee8b32a50bf7d5698ff44d18d0
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the SMART findings that actually predict a disk failing — reallocated and pending sectors, any attribute past the drive's own failure threshold, solid-state wear, temperature and interface errors — with an exit status a cron job or monitor can act on.
+ This package installs the 'smart-check' script.
+License: MIT
+
+Package: smart-check
+Architecture: all
+Version: 1.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: smartmontools, jq
+Filename: pool/main/smart-check_1.1.0_all.deb
+Size: 13168
+MD5sum: 6391f720a9981b9d1bcde0c8b130eaf4
+SHA1: 94ab29c8a263a0c7583e1d73930d5c85a29be791
+SHA256: 66b26c51e7c856002108feb21813a58501f0274142455cc32493bcd3015d152c
+SHA512: 756112d145fd4cee15f44063c314954f73078272dffdb98393fc8a1c7901f8574079749b6f4023b12a466db6736dd2bd5f016e22361a7f9c45e4c89eda015d90
 Homepage: https://github.com/jmerhar/scripts
 Description: Reports the SMART findings that actually predict a disk failing — reallocated and pending sectors, any attribute past the drive's own failure threshold, solid-state wear, temperature and interface errors — with an exit status a cron job or monitor can act on.
  This package installs the 'smart-check' script.
@@ -1476,6 +1716,22 @@ MD5sum: 53b056df262e980b8488bbd6a11f8ca6
 SHA1: d31345f4a433915c00c79d7cae0504b25110e947
 SHA256: 02785d5d8498493f3b276e84ef0289085cd3711542c62b0abf56984aff6f9062
 SHA512: 5cb5eed946eb843d02e79f76aa6aa2774ae71607ffe5e05f514d9000381de17111ab540dcf5e3ebca4f0d9dfbd1e5ee87236287aaf37b45fb70e4a7c1019b05a
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports on subtitle coverage for a media library, detecting embedded tracks and sidecar files and breaking down counts by language and source.
+ This package installs the 'subtitle-report' script.
+License: MIT
+
+Package: subtitle-report
+Architecture: all
+Version: 1.2.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg
+Filename: pool/main/subtitle-report_1.2.0_all.deb
+Size: 16004
+MD5sum: 11f47a6fcba17ae7ec5b876fe76b181b
+SHA1: a7d6f64eca8b136b919cda2cbbe5d0798e5b1260
+SHA256: f5e9b878a88f9e636394e57ced5fca8c02be11cf3654ba7bebd4223d5da6e791
+SHA512: 666c2102e6035aae9b7f24708fdf53afab2fc35d26adb5fb62af7a9092cb516efe1565160c5924d50e9d68d35176bd4c17fc35e26839f9b49f6a9c07b2e66bca
 Homepage: https://github.com/jmerhar/scripts
 Description: Reports on subtitle coverage for a media library, detecting embedded tracks and sidecar files and breaking down counts by language and source.
  This package installs the 'subtitle-report' script.
@@ -1609,6 +1865,22 @@ Description: Resynchronizes drifting subtitles to a video's speech using a Whisp
  This package installs the 'subtitle-sync' script.
 License: MIT
 
+Package: subtitle-sync
+Architecture: all
+Version: 2.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.3), ffmpeg
+Filename: pool/main/subtitle-sync_2.1.0_all.deb
+Size: 25570
+MD5sum: 02a9c56c8012bb60ccf215938663145e
+SHA1: a3cccc30c2da0d941de3f41a6ea761794c77fc49
+SHA256: 27ecea7680ec5e8739e2c15f5d3fb979780660353e7615c4949d9ee8eef2bf22
+SHA512: f8c31e1253f2b6be958155beabc8c505dd36303e6a922e9eec63764665caa290257973906a0de1148c9b4954051f7a437b1f9bcc709884a8b7f1bf1f8b0aad17
+Homepage: https://github.com/jmerhar/scripts
+Description: Resynchronizes drifting subtitles to a video's speech using a Whisper transcript as reference and alass for segment-aware alignment (handles ad-break, global-offset, and speed drift). Requires the external tools 'alass' and 'whisper-ctranslate2' on PATH.
+ This package installs the 'subtitle-sync' script.
+License: MIT
+
 Package: transcode-audio
 Architecture: all
 Version: 1.0.0
@@ -1705,6 +1977,22 @@ Description: Re-encodes the audio of Matroska files to a codec the playback chai
  This package installs the 'transcode-audio' script.
 License: MIT
 
+Package: transcode-audio
+Architecture: all
+Version: 2.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq
+Filename: pool/main/transcode-audio_2.1.0_all.deb
+Size: 14322
+MD5sum: 90f10bbd0a76f7a74cd83b3426be1596
+SHA1: 2050839de49d38eda2ffe482d54cb1dd47ee26c3
+SHA256: 02ac191b64fbd1c09f95ede8673f394c3f0b16d22f0305d5bca38ec3c923ad83
+SHA512: c65b9bb7711c15883e2d146450871d690ed7dcdaffc92937bf74dd3a545685949aefc8baf1e964ed4505177880b7c5c299d64703184c10f0ce409af7b9d96e42
+Homepage: https://github.com/jmerhar/scripts
+Description: Re-encodes the audio of Matroska files to a codec the playback chain can decode (AC-3 by default, for a receiver that cannot take Dolby Digital Plus), in one ffmpeg pass that copies the video, subtitles and chapters and keeps every audio track with its language and flags.
+ This package installs the 'transcode-audio' script.
+License: MIT
+
 Package: ufw-docker-expose
 Architecture: all
 Version: 1.0.0
@@ -1716,6 +2004,22 @@ MD5sum: 3b7740712e375422e2a905590d39c8af
 SHA1: 019bd112b7474060e1e65b3cc67a222f82bbf10c
 SHA256: 7804749df465e828eb159d6b9ef23468b73bf75e9eb792d0eab05c1b613ca803
 SHA512: 07211860f4883c70a073d7b2afd74c6503be68f703f7916fa335361c5617a27f1662a505306bf45134ec1a5f1f92b5de8aefee915e63e59aec173d25f37b6d5d
+Homepage: https://github.com/jmerhar/scripts
+Description: Opens external access to Docker-published container ports using ufw route rules keyed on the port rather than the container's address, so a redeploy that renumbers the container cannot silently close the port from outside, and constrained to container address ranges so the rules do not swallow traffic the host routes for a VPN exit node or subnet router.
+ This package installs the 'ufw-docker-expose' script.
+License: MIT
+
+Package: ufw-docker-expose
+Architecture: all
+Version: 1.1.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: ufw
+Filename: pool/main/ufw-docker-expose_1.1.0_all.deb
+Size: 10578
+MD5sum: b19bd991504c6e67a38f510890307bcd
+SHA1: a8fd1221260e7d79679ca2f007f988162f0f30d9
+SHA256: c30d8881bba3bbbfd2ab5ff3c3e8cf6c7255bd971dae1075df8f21ecfac99bd6
+SHA512: 40fa0d20a67487590801664952818ead2f9f3191b9e3230b5a4d66592b800347cd9e37fc3a22058490642e42f86876f0b84e9aba6a6bc78c959cc38ae3a5c349
 Homepage: https://github.com/jmerhar/scripts
 Description: Opens external access to Docker-published container ports using ufw route rules keyed on the port rather than the container's address, so a redeploy that renumbers the container cannot silently close the port from outside, and constrained to container address ranges so the rules do not swallow traffic the host routes for a VPN exit node or subnet router.
  This package installs the 'ufw-docker-expose' script.
@@ -1919,6 +2223,22 @@ MD5sum: c593ce610a109837d023b5501841d628
 SHA1: 7ea6bd373bea4edf7f633b5e9ffa7dab06b92f62
 SHA256: 4e9c8d31038f9318efc809e72adf0823c4c229a4e1a8aaf688370051bdf75b99
 SHA512: a623563db191ed93f2ed350a221c91038d9c8dd126c0c0bc0e4cb624a269860cc82d34ed7a5db6d22cd677c75ec2c46ebb29894d96d74073103c0eb651598569
+Homepage: https://github.com/jmerhar/scripts
+Description: Decrypts a password-protected PDF file using the 'qpdf' command-line tool.
+ This package installs the 'unlock-pdf' script.
+License: MIT
+
+Package: unlock-pdf
+Architecture: all
+Version: 2.2.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: qpdf
+Filename: pool/main/unlock-pdf_2.2.0_all.deb
+Size: 4490
+MD5sum: 0a4d9c5d4ad7a7ed7a87936f61975756
+SHA1: 2f9d77dad038ed4175da4103e4df2aca99f35a27
+SHA256: f8a95da9c3e58bec435f87125fd96ba6de82a6ebc5fbb7166ce6d49fe900c59a
+SHA512: c7194e053c82035dfe408fea53c6fda5f0941e24eeaf4fea5e8910ebc2c4f7eddae211a1627cc3837192fb79c229199df928f294dbf01798dfe1dc05a7a339f4
 Homepage: https://github.com/jmerhar/scripts
 Description: Decrypts a password-protected PDF file using the 'qpdf' command-line tool.
  This package installs the 'unlock-pdf' script.
