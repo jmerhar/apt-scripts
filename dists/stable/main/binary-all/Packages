@@ -2249,6 +2249,22 @@ Description: Re-encodes the audio of Matroska files to a codec the playback chai
  This package installs the 'transcode-audio' script.
 License: MIT
 
+Package: transcode-audio
+Architecture: all
+Version: 2.1.1
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.0), ffmpeg, jq
+Filename: pool/main/transcode-audio_2.1.1_all.deb
+Size: 14350
+MD5sum: 976022bb6c0ee8a36513f3e3221dccc3
+SHA1: 000d32e721868a726ffd258bf72bbe7a1de868e8
+SHA256: bbf54f5a45a089fa842efbed7e67fbf1fca331d843a6caec2dd3131633d8acd8
+SHA512: c1bd98d8601bd9e0178236fb54eee6840cd0547e2755fbe1dcfe571a61de58da0b16ceb2d7c6e681c68d16a0e37705b7172e8f41139b7b73066d3a2768d2ea37
+Homepage: https://github.com/jmerhar/scripts
+Description: Re-encodes the audio of Matroska files to a codec the playback chain can decode (AC-3 by default, for a receiver that cannot take Dolby Digital Plus), in one ffmpeg pass that copies the video, subtitles and chapters and keeps every audio track with its language and flags.
+ This package installs the 'transcode-audio' script.
+License: MIT
+
 Package: ufw-docker-expose
 Architecture: all
 Version: 1.0.0
