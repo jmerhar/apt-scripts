@@ -1753,6 +1753,22 @@ Description: Reports the SMART findings that actually predict a disk failing —
  This package installs the 'smart-check' script.
 License: MIT
 
+Package: smart-check
+Architecture: all
+Version: 1.1.1
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: smartmontools, jq
+Filename: pool/main/smart-check_1.1.1_all.deb
+Size: 13202
+MD5sum: 679aa99d39657b5a959a70e4efef9dca
+SHA1: ab398f6dcd42525ba9bf5722bf3179326f04a381
+SHA256: 2d99621da179607853d560704d757dbbeaeccdd31dd9940909f6c542d436f4e2
+SHA512: f8ca87206b01ff6638d9e5d375dc8e821571af40ba5d635a5a789263787f70be321f52c734be7e4e50db1672005a770dda964eee751a2b641fdce84ecd1bb7a4
+Homepage: https://github.com/jmerhar/scripts
+Description: Reports the SMART findings that actually predict a disk failing — reallocated and pending sectors, any attribute past the drive's own failure threshold, solid-state wear, temperature and interface errors — with an exit status a cron job or monitor can act on.
+ This package installs the 'smart-check' script.
+License: MIT
+
 Package: subtitle-report
 Architecture: all
 Version: 1.0.0
