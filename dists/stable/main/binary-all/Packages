@@ -138,6 +138,22 @@ Description: Recursively compares two directories and reports differences in exi
  This package installs the 'compare-dirs' script.
 License: MIT
 
+Package: db-backup
+Architecture: all
+Version: 1.0.0
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.3), sqlite3
+Filename: pool/main/db-backup_1.0.0_all.deb
+Size: 19718
+MD5sum: 7e0a782d0c43e9e19860c65fc8243aec
+SHA1: 7f5f66a22dd1cf797cc87bec2d4e818603b386c3
+SHA256: 43d1d49dafa7e41db72d20ab6b1997ace2e9070ab5fc580d2cbd8b1435fe7bc0
+SHA512: be81db74405c7ceb1ff39b872ce12d5afbbe654fc643926fcb9465522309832910455e9fa71d26f341559ba57160591a617458d434f3a6025ee4e0f6954c6bdd
+Homepage: https://github.com/jmerhar/scripts
+Description: Backs up Postgres, MariaDB, MongoDB and SQLite databases with a daily, weekly and monthly rotation, dumping the server engines inside their Docker containers, and verifies and restores the backups.
+ This package installs the 'db-backup' script.
+License: MIT
+
 Package: dmarc-report
 Architecture: all
 Version: 1.0.0
