@@ -1487,6 +1487,22 @@ Description: Purges the kernel packages a Debian or Ubuntu system no longer need
  This package installs the 'remove-old-kernels' script.
 License: MIT
 
+Package: remove-old-kernels
+Architecture: all
+Version: 1.1.1
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: sudo
+Filename: pool/main/remove-old-kernels_1.1.1_all.deb
+Size: 10992
+MD5sum: 2c369537c6d0bbd110c9960461be885a
+SHA1: 9eca51197c8c73ec81f4c313c1c84e5e87bf3236
+SHA256: fcc44e5a745bbfc9fa01d2a4a6c373feb894dda533ff12030889162b6bb3183d
+SHA512: a408202527dc214b8856e7acda3ba475fa416004a4be79283bcbc802f73fc79211ab93d287e6823a58d2e46a863178159e706c36b4464d558317aae7813306e9
+Homepage: https://github.com/jmerhar/scripts
+Description: Purges the kernel packages a Debian or Ubuntu system no longer needs, keeping the running kernel even when it is not the newest installed, and naming every package it removes rather than letting apt decide what else is unneeded.
+ This package installs the 'remove-old-kernels' script.
+License: MIT
+
 Package: remove-sidecars
 Architecture: all
 Version: 1.3.0
