@@ -154,6 +154,22 @@ Description: Backs up Postgres, MariaDB, MongoDB and SQLite databases with a dai
  This package installs the 'db-backup' script.
 License: MIT
 
+Package: db-backup
+Architecture: all
+Version: 1.0.1
+Maintainer: Jure Merhar <dev@merhar.si>
+Depends: bash (>= 4.3), sqlite3
+Filename: pool/main/db-backup_1.0.1_all.deb
+Size: 19824
+MD5sum: 5b0ae634f7ebc9adc560a222cc654304
+SHA1: 4786ab8724147937c1ee7f58b59d11617769ee01
+SHA256: 8eaa072789a640bc40877e701371496c8a5f08e9c595b7ef49793d14b8c0ad64
+SHA512: 51e56d30cb9c7f05357f53293f5b649fca3c945c5137995f159c4f68d96837041e7ecd1f7d9963649d0e2f0b9d74ed70ad29194af1b75664fa6b23b1791465ff
+Homepage: https://github.com/jmerhar/scripts
+Description: Backs up Postgres, MariaDB, MongoDB and SQLite databases with a daily, weekly and monthly rotation, dumping the server engines inside their Docker containers, and verifies and restores the backups.
+ This package installs the 'db-backup' script.
+License: MIT
+
 Package: dmarc-report
 Architecture: all
 Version: 1.0.0
