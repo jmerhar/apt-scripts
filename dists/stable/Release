@@ -1,24 +1,24 @@
 Architectures: all
 Codename: stable
 Components: main
-Date: Thu, 12 Nov 2026 18:25:08 +0000
+Date: Thu, 12 Nov 2026 18:25:46 +0000
 Description: APT repository for personal shell scripts
 Label: jmerhar-scripts
 Origin: jmerhar
 Suite: stable
 MD5Sum:
- db226409610cf23a62598ecfd028006b              199 Release
+ f562d527f31bdc9971ab8ee1fbdfad10              199 Release
  0392921ce5f40634bccfeac7bd2bf8f5           116346 main/binary-all/Packages
- 89a1402226d37f417a968d87bc5eddd7            32424 main/binary-all/Packages.gz
+ 17c811c756fc9bc844fb2f7beac2a041            32424 main/binary-all/Packages.gz
 SHA1:
- fb87a65f7cff3ea7efb161be4ad2eec3b022e8a5              199 Release
+ 5a311a06e7af96bf47db0b33110e2db94dcd02cc              199 Release
  53a7d4b0c10aad8823693391013594f8cc50cbe0           116346 main/binary-all/Packages
- 938c0e047f2349f4ff69a5dddbddba3cf7f0f5d0            32424 main/binary-all/Packages.gz
+ a1ef60304cf1baf193f688515945184b758c986c            32424 main/binary-all/Packages.gz
 SHA256:
- b373a1afe7cdba6d7758ad4889f6ce9755a6f55027cf5164caca4920955fef46              199 Release
+ 5a91cc31b2293eeba0a65d20c2040012387a70a13bbdd074d85998e6df443bc4              199 Release
  1263b3affe1ebdc6a6e5b82c849d37cc7fd086cc20839eb28125a2483165a75b           116346 main/binary-all/Packages
- 1c7e8e03e880ed73f7e683a711541abec52351f749ecbffc44eb053cb248a6ba            32424 main/binary-all/Packages.gz
+ 746328ad959044fb553b1ef473d4e848251e2edcd2fdba8e48af48f728bdd776            32424 main/binary-all/Packages.gz
 SHA512:
- a0e07128f158eb155e791cb82b6c2ebb291af68903a8769ad91f9c682a8aca646255ced9793ff7e3a8f3403a7871e9ceaff6cc2a604911671e696c05a6765d44              199 Release
+ cbf371cfad0605e3f26f4ce9cf2a026414e770e6066709278d0f06ee053096584c70e3925aa1057bb94b8116b3d24d10641c668175b3164abe272002921365bb              199 Release
  c541ca20615cc8819df0429db5279407d83cf2175f1173ae4a563ccedcfb5be3eb111d3ba7c2f4e5a843a619700e875bfc9f120f6f8251984e58f7e78e900741           116346 main/binary-all/Packages
- a10a9f1e16dc318555a6f6c6f7fea69954d9fcd403ff7461670bd4532eda0eb33a2f4500b4d7f127462301cfac2a9f7c7a6e51f8582272b373572bbbe43c8b91            32424 main/binary-all/Packages.gz
+ ee2986a858a0e6ebc4e10991819e07f85e76ee293dcc3131397876c0049344af188cc228f90417a29a3320c4b24b3d206d7212799589948927b4bfe6b6cc5a94            32424 main/binary-all/Packages.gz
